@@ -7,7 +7,7 @@ inc:
   
   # Company information
   company:      Incorporated
-  url:          http://incorporated.sendtoinc.com/
+  url:          http://sendtoinc.com/
   facebook:     sendtoinc
   twitter:      sendtoinc
   gplus:        '101183822199340201470'
@@ -43,6 +43,7 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
+url:         http://incorporated.sendtoinc.com
 source:      .
 destination: ./_site
 plugins:     ./_plugins

@@ -2,7 +2,7 @@
 Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)
 
 ## Installation & Usage
-    bundle
+    bundle install
     jekyll serve --watch
     
 ## Configuration
@@ -23,9 +23,9 @@ _Note:_ when editing config.yml, you need to restart jekyll to see the changes.
 1. Add your domain to _CNAME_
 2. Edit your repo address at _Rakefile_
     
-Run rake task. **NOTE: It will deploy the generated site to _master_ branch overwriting it**    
+Run rake task. **NOTE: It will deploy the generated site to _gh-pages_ branch overwriting it**    
 ``` 
-rake publish
+rake site:publish
 ```
 
 ## Authors

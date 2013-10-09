@@ -8,6 +8,10 @@
         padding:0;
         margin:1.5em 10%;
     }
+    
+    .container > section {
+        padding-bottom:1.5em;
+    }
 
 }
 
@@ -22,11 +26,15 @@
         }
         
         .container > footer {
-            padding:1.5em 0;
+            padding:2em 0;
         }
         
-        .full, .highlight {
+        .full, pre {
             margin:1em 0;
+        }
+        
+        pre {
+            padding:1em;
         }
         
         blockquote {

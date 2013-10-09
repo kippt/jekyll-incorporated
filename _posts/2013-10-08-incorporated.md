@@ -1,23 +1,46 @@
 ---
 layout: post
+
 title: Jekyll Incorporated Features
 subtitle: "What's in the box"
 cover_image: blog-cover.jpg
 
-excerpt: Features
+excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
 
 author:
   name: Karri Saarinen
   twitter: karrisaarinen
-  gplus: 100687498195339762535
+  gplus: 100687498195339762535 
   bio: Co-founder, Design
-
+  image: ks.png
 ---
 
+Incorporated provides a great typography, responsive design, author details, semantic markup and more.
 
-### Beautiful & Flexible Design
+You can set customize post covers, and other things directly in the post front matter:
 
-* Great typography
+{% highlight yaml %}
+layout: post
+
+title: Jekyll Incorporated Features
+subtitle: "What's in the box"
+
+# Setup post cover image in /images/
+cover_image: blog-cover.jpg
+
+excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
+
+# Author details, including Google Plus authorship
+author:
+  name: Karri Saarinen
+  twitter: karrisaarinen
+  gplus: 100687498195339762535 
+  bio: Co-founder, Design
+  image: ks.jpg
+  
+# Keep it as draft, not published in index.html or feed.xml
+draft: false
+{% endhighlight %}
 
 #### Configurable & Code Snipped Highlighting
 
@@ -76,14 +99,11 @@ inc:
       id:       false    
 {% endhighlight %}
 
-### Responsive
+**Awesome quotes**
+> “Effective companies tend to communicate more, their people are curious and they have opinions”
+
+**Zoomable images**
+<div class="full zoomable"><img src="/images/incorporated.jpg"></div>
 
 
-### SEO & Sharing friendly
-
-### Optimized Performance
-
-
-{% highlight ruby %}
-    
-{% endhighlight %}
+ads
