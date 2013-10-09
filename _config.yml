@@ -1,0 +1,126 @@
+inc:
+  # Blog Information
+  title:        "Jekyll Incorporated"
+  subtitle:     "Modern Jekyll based blog for companies"
+  cover_image:  blog-cover.jpg
+  logo:         logo.png
+  
+  # Company information
+  company:      Incorporated
+  url:          http://incorporated.sendtoinc.com/
+  facebook:     sendtoinc
+  twitter:      sendtoinc
+  gplus:        '101183822199340201470'
+  about_link:   https://sendtoinc.com/about/
+  
+  # Product Information
+  product_link: http://incorporated.sendtoinc.com/
+  tagline:      "Get a modern blog for your company"
+  
+  # Comments
+  disqus:
+    # Eg. "exampleblog" Set to false to disable comments
+    shortname:  false
+  
+  # Sharing settings
+  sharing:
+    twitter:    false
+    facebook:   false
+    gplus:      false
+    hn:         false
+    
+  
+ # Analytics     
+  analytics:
+    google: 
+      # eg. 'UA-123-12'
+      id:       false
+      
+      
+  # Google Fonts
+  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
+  google_font: 'Droid+Sans:400,700'
+  
+  # Setup your fonts, colors etc at _assets/stylesheets/main.scss
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+include:     ['.htaccess']
+exclude:     []
+timezone:    nil
+
+# Show future posts
+future:      false
+show_drafts: nil
+limit_posts: 0
+pygments:    true
+
+relative_permalinks: true
+
+permalink:     pretty
+paginate_path: 'page:num'
+paginate: 10
+
+markdown:      maruku
+markdown_ext:  markdown,mkd,mkdn,md
+textile_ext:   textile
+
+excerpt_separator: "<!-- more -->"
+
+safe:        false
+host:        0.0.0.0
+port:        4000
+baseurl:     /
+lsi:         false
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: false
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
+
+redcloth:
+  hard_breaks: true
+
+#
+# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
+#
+assets:
+
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: none
+  cache: false
+  gzip: [ text/css, application/javascript ]
+  debug: false

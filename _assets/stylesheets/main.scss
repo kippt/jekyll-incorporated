@@ -1,0 +1,22 @@
+/* CONFIGURATION */
+
+/* Bodytext font */
+$font: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/* Font for headings */
+$fontheadings: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/* Text colors */
+$text: #21272d;
+$textmuted: #848484;
+$accent: #2077b2;
+
+
+/* IMPORT CSS FILES */
+@import "bootstrap";
+@import "base";
+@import "nav";
+@import "article";
+@import "icons";
+@import "syntax";
+@import "responsive";

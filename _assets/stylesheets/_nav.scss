@@ -1,0 +1,86 @@
+.site-nav {
+    background:#fff;
+    height:80px;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    box-shadow:0 0 1px 1px rgba(0,0,0,0.1);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    transition:all 0.35s ease;
+    z-index:100;
+    
+    .caret {
+        opacity:0.2;
+    }
+    
+    .brand img {
+        height:40px;
+        margin-right:10px;
+        margin-top:-2px;
+    }
+    
+    .dropdown {
+        display:inline-block;
+    }
+    
+    nav {
+        padding:22px 30px;
+        float:left;
+        height:80px;
+        display:table-cell;
+    }
+    
+    #navigation {
+        padding-right:0;
+        
+        a {
+            border:0;
+            margin:0 0.9em;
+            display:inline-block;
+            
+            &:hover {
+                color:$accent;
+            }
+        }
+        
+        > a, .dropdown-toggle  {
+            color:#444;
+            border:0;
+            font-weight:600;
+            font-size:15px;
+            display:inline-block;
+        }
+        
+        .dropdown-toggle {
+            padding: 6px 0.5em;
+            text-align: center;
+            
+            &:hover {
+                background:#eee;
+            }
+        }
+    }
+    
+    .tagline {
+        float:right;
+        text-align:right;
+        font-size:15px;
+        font-weight:600;
+        
+        span {
+            line-height:0;
+            padding-right:20px;
+        }
+    }
+}
+
+body.nav-hidden {
+    .site-nav {
+        top:-100px;
+        transition:all 0.35s ease;
+        -webkit-transform: translate3d(0px, 0, 0px);
+    }
+}
+
