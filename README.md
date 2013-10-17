@@ -1,11 +1,11 @@
-# Jekyll Incorporated by Inc
+# Jekyll Incorporated
 Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)
 
 ## Installation & Usage
     bundle install
     jekyll serve --watch
 
-_Note:_ Requires Ruby version 1.9.3 =>    
+_Note: Requires Ruby version 1.9.3 =>. For example use [rbenv](https://github.com/sstephenson/rbenv)_   
     
 ## Configuration
 Edit: _config.yml (general options), main.css (theme colors &amp; fonts)
@@ -18,7 +18,7 @@ jekyll-incorporated/
         ├── main.scss
 ```
 
-_Note:_ when editing _config.yml, you need to restart jekyll to see the changes.
+_Note: when editing _config.yml, you need to restart jekyll to see the changes.__
 
     
 ## Publish to Github Pages
