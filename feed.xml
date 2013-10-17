@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://incorporated.sendtoinc.com</link>
+    <atom:link href="http://incorporated.sendtoinc.com/feed.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <language>en-us</language>
+    <pubDate>Thu, 17 Oct 2013 01:30:25 +0000</pubDate>
+    <lastBuildDate>Thu, 17 Oct 2013 01:30:25 +0000</lastBuildDate>
+
+    
+    
+    <item>
+      <title>Jekyll Incorporated Features</title>
+      <link>http://incorporated.sendtoinc.com/2013/10/08/incorporated/</link>
+      <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://incorporated.sendtoinc.com/2013/10/08/incorporated</guid>
+      <description>&lt;p&gt;Incorporated provides a great typography, responsive design, author details, semantic markup and more.&lt;/p&gt;
+
+&lt;p&gt;You can set customize post covers, and other things directly in the post front matter:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='yaml'&gt;&lt;span class='l-Scalar-Plain'&gt;layout&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;post&lt;/span&gt;
+
+&lt;span class='l-Scalar-Plain'&gt;title&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Jekyll Incorporated Features&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;subtitle&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;What&amp;#39;s&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;in&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;the&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;box&amp;quot;&lt;/span&gt;
+
+&lt;span class='c1'&gt;# Setup post cover image in /images/&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;cover_image&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;blog-cover.jpg&lt;/span&gt;
+
+&lt;span class='l-Scalar-Plain'&gt;excerpt&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;Incorporated&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;provides&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;a&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;great&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;typography,&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;responsive&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;design,&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;author&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;details,&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;semantic&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;markup&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;and&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;more.&amp;quot;&lt;/span&gt;
+
+&lt;span class='c1'&gt;# Author details, including Google Plus authorship&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;author&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;name&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Karri Saarinen&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;twitter&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;karrisaarinen&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;gplus&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;100687498195339762535&lt;/span&gt; 
+  &lt;span class='l-Scalar-Plain'&gt;bio&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Co-founder, Design&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;image&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;ks.jpg&lt;/span&gt;
+  
+&lt;span class='c1'&gt;# Keep it as draft, not published in index.html or feed.xml&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;draft&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id='configurable__code_snipped_highlighting'&gt;Configurable &amp;amp; Code Snipped Highlighting&lt;/h4&gt;
+
+&lt;p&gt;/assets/stylesheets/main.scss:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='scss'&gt;&lt;span class='cm'&gt;/* Bodytext font */&lt;/span&gt;
+&lt;span class='nv'&gt;$font&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Droid Sans&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Helvetica Neue&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='n'&gt;Helvetica&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='n'&gt;Arial&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='no'&gt;sans-serif&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+
+&lt;span class='cm'&gt;/* Font for headings */&lt;/span&gt;
+&lt;span class='nv'&gt;$fontheadings&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Droid Sans&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Helvetica Neue&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='n'&gt;Helvetica&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='n'&gt;Arial&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='no'&gt;sans-serif&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+
+&lt;span class='cm'&gt;/* Text colors */&lt;/span&gt;
+&lt;span class='nv'&gt;$text&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='mh'&gt;#21272d&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='nv'&gt;$textmuted&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='mh'&gt;#848484&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='nv'&gt;$accent&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='mh'&gt;#2077b2&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;config.yml:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='yaml'&gt;&lt;span class='l-Scalar-Plain'&gt;inc&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
+  &lt;span class='c1'&gt;# Blog Information&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;title&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;        &lt;span class='s'&gt;&amp;quot;Jekyll&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;Incorporated&amp;quot;&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;subtitle&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;     &lt;span class='s'&gt;&amp;quot;Modern&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;Jekyll&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;based&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;blog&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;for&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;companies&amp;quot;&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;cover_image&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;  &lt;span class='l-Scalar-Plain'&gt;blog-cover.jpg&lt;/span&gt;
+  
+  &lt;span class='c1'&gt;# Company information&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;company&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;      &lt;span class='l-Scalar-Plain'&gt;Incorporated&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;url&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;          &lt;span class='l-Scalar-Plain'&gt;http://incorporated.sendtoinc.com/&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;facebook&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;     &lt;span class='l-Scalar-Plain'&gt;sendtoinc&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;twitter&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;      &lt;span class='l-Scalar-Plain'&gt;sendtoinc&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;about_link&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;   &lt;span class='l-Scalar-Plain'&gt;https://sendtoinc.com/about/&lt;/span&gt;
+  
+  &lt;span class='c1'&gt;# Product Information&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;product_link&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;http://incorporated.sendtoinc.com/&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;tagline&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;      &lt;span class='s'&gt;&amp;quot;Get&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;a&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;modern&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;blog&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;for&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;your&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;company&amp;quot;&lt;/span&gt;
+  
+  &lt;span class='c1'&gt;# Comments&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;disqus&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
+    &lt;span class='c1'&gt;# Eg. &amp;quot;exampleblog&amp;quot; Set to false to disable comments&lt;/span&gt;
+    &lt;span class='l-Scalar-Plain'&gt;shortname&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;  &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
+  
+  
+  &lt;span class='c1'&gt;# Sharing settings&lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;sharing&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
+    &lt;span class='l-Scalar-Plain'&gt;twitter&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;    &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
+    &lt;span class='l-Scalar-Plain'&gt;facebook&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;   &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
+    &lt;span class='l-Scalar-Plain'&gt;gplus&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;      &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
+    &lt;span class='l-Scalar-Plain'&gt;hn&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;         &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
+    
+  
+ &lt;span class='c1'&gt;# Analytics     &lt;/span&gt;
+  &lt;span class='l-Scalar-Plain'&gt;analytics&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
+    &lt;span class='l-Scalar-Plain'&gt;google&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; 
+      &lt;span class='c1'&gt;# eg. &amp;#39;UA-123-12&amp;#39;&lt;/span&gt;
+      &lt;span class='l-Scalar-Plain'&gt;id&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;       &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Zoomable images&lt;/strong&gt; &lt;div class='full zoomable'&gt;&lt;img src='/images/incorporated.jpg' /&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Awesome quotes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“Effective companies tend to communicate more, their people are curious and they have opinions”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Stay tuned for updates.&lt;/p&gt;</description>
+    </item>
+    
+    
+
+  </channel> 
+</rss>

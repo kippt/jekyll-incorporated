@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jekyll Incorporated Features &mdash; Jekyll Incorporated</title>
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/logo.png"/>
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Jekyll Incorporated" />
+    <meta name="title" content="Jekyll Incorporated Features ">
+    <link rel="canonical" href="http://incorporated.sendtoinc.com/2013/10/08/incorporated/">
+     
+    <link rel="author" href="https://plus.google.com/100687498195339762535">       
+    <meta property="og:title" content="Jekyll Incorporated Features "/>
+    <meta property="og:url" content="http://incorporated.sendtoinc.com/2013/10/08/incorporated/"/>
+    
+    <meta property="og:image" content="http://incorporated.sendtoinc.com/images/blog-cover.jpg"/>
+    
+    <meta property="og:image" content="http://incorporated.sendtoinc.com/images/logo.png"/>   
+    
+    
+    <meta property="og:description" content="Incorporated provides a great typography, responsive design, author details, semantic markup and more."/>
+    <meta name="description" content="Incorporated provides a great typography, responsive design, author details, semantic markup and more."/>
+    
+    <meta property="og:site_name" content="Jekyll Incorporated">     
+</head>
+<body>
+    
+<section class="site-nav">
+    <header>
+        <nav id="navigation">
+            <a class="brand" href="/">
+                <img src="/images/logo.png" alt="Inc">
+            </a>
+            <a href="/" class="home">Blog</a>
+            <a href="http://incorporated.sendtoinc.com/">Product</a>
+            <a href="https://sendtoinc.com/about/">About</a>
+        </nav>
+        <nav class="tagline">
+            <span>Get a modern blog for your company</span>
+            <a href="http://incorporated.sendtoinc.com/" class="btn btn-outline">Learn More</a>
+        </nav>
+    </header>
+</section>
+
+
+<div class="article-cover">
+    <div>
+        <img src="/images/blog-cover.jpg" class="image">
+    </div>
+</div>
+
+<article>
+
+    <div class="container">
+        <header>
+            <div class="meta">
+                By <address><a rel="author" href="" title="Karri Saarinen" target="_blank">Karri Saarinen</a> &mdash;
+                <time pubdate datetime="2013-08-October" title="October 08, 2013">October 08, 2013</time>
+            </div>
+            <h1 class="title">Jekyll Incorporated Features</h1>
+            <h2 class="subtitle">What's in the box</h2>
+        </header>
+
+        <section>
+            <p>Incorporated provides a great typography, responsive design, author details, semantic markup and more.</p>
+
+<p>You can set customize post covers, and other things directly in the post front matter:</p>
+<div class='highlight'><pre><code class='yaml'><span class='l-Scalar-Plain'>layout</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>post</span>
+
+<span class='l-Scalar-Plain'>title</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>Jekyll Incorporated Features</span>
+<span class='l-Scalar-Plain'>subtitle</span><span class='p-Indicator'>:</span> <span class='s'>&quot;What&#39;s</span><span class='nv'> </span><span class='s'>in</span><span class='nv'> </span><span class='s'>the</span><span class='nv'> </span><span class='s'>box&quot;</span>
+
+<span class='c1'># Setup post cover image in /images/</span>
+<span class='l-Scalar-Plain'>cover_image</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>blog-cover.jpg</span>
+
+<span class='l-Scalar-Plain'>excerpt</span><span class='p-Indicator'>:</span> <span class='s'>&quot;Incorporated</span><span class='nv'> </span><span class='s'>provides</span><span class='nv'> </span><span class='s'>a</span><span class='nv'> </span><span class='s'>great</span><span class='nv'> </span><span class='s'>typography,</span><span class='nv'> </span><span class='s'>responsive</span><span class='nv'> </span><span class='s'>design,</span><span class='nv'> </span><span class='s'>author</span><span class='nv'> </span><span class='s'>details,</span><span class='nv'> </span><span class='s'>semantic</span><span class='nv'> </span><span class='s'>markup</span><span class='nv'> </span><span class='s'>and</span><span class='nv'> </span><span class='s'>more.&quot;</span>
+
+<span class='c1'># Author details, including Google Plus authorship</span>
+<span class='l-Scalar-Plain'>author</span><span class='p-Indicator'>:</span>
+  <span class='l-Scalar-Plain'>name</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>Karri Saarinen</span>
+  <span class='l-Scalar-Plain'>twitter</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>karrisaarinen</span>
+  <span class='l-Scalar-Plain'>gplus</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>100687498195339762535</span> 
+  <span class='l-Scalar-Plain'>bio</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>Co-founder, Design</span>
+  <span class='l-Scalar-Plain'>image</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>ks.jpg</span>
+  
+<span class='c1'># Keep it as draft, not published in index.html or feed.xml</span>
+<span class='l-Scalar-Plain'>draft</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>false</span>
+</code></pre></div>
+<h4 id='configurable__code_snipped_highlighting'>Configurable &amp; Code Snipped Highlighting</h4>
+
+<p>/assets/stylesheets/main.scss:</p>
+<div class='highlight'><pre><code class='scss'><span class='cm'>/* Bodytext font */</span>
+<span class='nv'>$font</span><span class='o'>:</span> <span class='s2'>&quot;Droid Sans&quot;</span><span class='o'>,</span> <span class='s2'>&quot;Helvetica Neue&quot;</span><span class='o'>,</span> <span class='n'>Helvetica</span><span class='o'>,</span> <span class='n'>Arial</span><span class='o'>,</span> <span class='no'>sans-serif</span><span class='p'>;</span>
+
+<span class='cm'>/* Font for headings */</span>
+<span class='nv'>$fontheadings</span><span class='o'>:</span> <span class='s2'>&quot;Droid Sans&quot;</span><span class='o'>,</span> <span class='s2'>&quot;Helvetica Neue&quot;</span><span class='o'>,</span> <span class='n'>Helvetica</span><span class='o'>,</span> <span class='n'>Arial</span><span class='o'>,</span> <span class='no'>sans-serif</span><span class='p'>;</span>
+
+<span class='cm'>/* Text colors */</span>
+<span class='nv'>$text</span><span class='o'>:</span> <span class='mh'>#21272d</span><span class='p'>;</span>
+<span class='nv'>$textmuted</span><span class='o'>:</span> <span class='mh'>#848484</span><span class='p'>;</span>
+<span class='nv'>$accent</span><span class='o'>:</span> <span class='mh'>#2077b2</span><span class='p'>;</span>    
+</code></pre></div>
+<p>config.yml:</p>
+<div class='highlight'><pre><code class='yaml'><span class='l-Scalar-Plain'>inc</span><span class='p-Indicator'>:</span>
+  <span class='c1'># Blog Information</span>
+  <span class='l-Scalar-Plain'>title</span><span class='p-Indicator'>:</span>        <span class='s'>&quot;Jekyll</span><span class='nv'> </span><span class='s'>Incorporated&quot;</span>
+  <span class='l-Scalar-Plain'>subtitle</span><span class='p-Indicator'>:</span>     <span class='s'>&quot;Modern</span><span class='nv'> </span><span class='s'>Jekyll</span><span class='nv'> </span><span class='s'>based</span><span class='nv'> </span><span class='s'>blog</span><span class='nv'> </span><span class='s'>for</span><span class='nv'> </span><span class='s'>companies&quot;</span>
+  <span class='l-Scalar-Plain'>cover_image</span><span class='p-Indicator'>:</span>  <span class='l-Scalar-Plain'>blog-cover.jpg</span>
+  
+  <span class='c1'># Company information</span>
+  <span class='l-Scalar-Plain'>company</span><span class='p-Indicator'>:</span>      <span class='l-Scalar-Plain'>Incorporated</span>
+  <span class='l-Scalar-Plain'>url</span><span class='p-Indicator'>:</span>          <span class='l-Scalar-Plain'>http://incorporated.sendtoinc.com/</span>
+  <span class='l-Scalar-Plain'>facebook</span><span class='p-Indicator'>:</span>     <span class='l-Scalar-Plain'>sendtoinc</span>
+  <span class='l-Scalar-Plain'>twitter</span><span class='p-Indicator'>:</span>      <span class='l-Scalar-Plain'>sendtoinc</span>
+  <span class='l-Scalar-Plain'>about_link</span><span class='p-Indicator'>:</span>   <span class='l-Scalar-Plain'>https://sendtoinc.com/about/</span>
+  
+  <span class='c1'># Product Information</span>
+  <span class='l-Scalar-Plain'>product_link</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>http://incorporated.sendtoinc.com/</span>
+  <span class='l-Scalar-Plain'>tagline</span><span class='p-Indicator'>:</span>      <span class='s'>&quot;Get</span><span class='nv'> </span><span class='s'>a</span><span class='nv'> </span><span class='s'>modern</span><span class='nv'> </span><span class='s'>blog</span><span class='nv'> </span><span class='s'>for</span><span class='nv'> </span><span class='s'>your</span><span class='nv'> </span><span class='s'>company&quot;</span>
+  
+  <span class='c1'># Comments</span>
+  <span class='l-Scalar-Plain'>disqus</span><span class='p-Indicator'>:</span>
+    <span class='c1'># Eg. &quot;exampleblog&quot; Set to false to disable comments</span>
+    <span class='l-Scalar-Plain'>shortname</span><span class='p-Indicator'>:</span>  <span class='l-Scalar-Plain'>false</span>
+  
+  
+  <span class='c1'># Sharing settings</span>
+  <span class='l-Scalar-Plain'>sharing</span><span class='p-Indicator'>:</span>
+    <span class='l-Scalar-Plain'>twitter</span><span class='p-Indicator'>:</span>    <span class='l-Scalar-Plain'>false</span>
+    <span class='l-Scalar-Plain'>facebook</span><span class='p-Indicator'>:</span>   <span class='l-Scalar-Plain'>false</span>
+    <span class='l-Scalar-Plain'>gplus</span><span class='p-Indicator'>:</span>      <span class='l-Scalar-Plain'>false</span>
+    <span class='l-Scalar-Plain'>hn</span><span class='p-Indicator'>:</span>         <span class='l-Scalar-Plain'>false</span>
+    
+  
+ <span class='c1'># Analytics     </span>
+  <span class='l-Scalar-Plain'>analytics</span><span class='p-Indicator'>:</span>
+    <span class='l-Scalar-Plain'>google</span><span class='p-Indicator'>:</span> 
+      <span class='c1'># eg. &#39;UA-123-12&#39;</span>
+      <span class='l-Scalar-Plain'>id</span><span class='p-Indicator'>:</span>       <span class='l-Scalar-Plain'>false</span>    
+</code></pre></div>
+<p><strong>Zoomable images</strong> <div class='full zoomable'><img src='/images/incorporated.jpg' /></div></p>
+
+<p><strong>Awesome quotes</strong></p>
+
+<blockquote>
+<p>“Effective companies tend to communicate more, their people are curious and they have opinions”</p>
+</blockquote>
+
+<p>Stay tuned for updates.</p>
+            
+        </section>
+
+        <footer>
+            <address>
+               <img src="/images/ks.png">
+                <p>Written by <strong><a rel="author" href="https://twitter.com/karrisaarinen" title="" target="_blank">Karri Saarinen</a></strong><br>
+                <span class="muted">Co-founder, Design</span>
+                </p>
+            </address>
+
+        </footer>
+
+        
+    </div>
+</article>
+
+<footer class="site-footer">
+    <div class="container">
+        &copy; 2013 
+        
+        <nav>
+            <a href="http://sendtoinc.com/">Incorporated</a> &middot;
+            <a href="/">Blog</a> &middot;
+            <a href="http://incorporated.sendtoinc.com/">Product</a> &middot; 
+            <a href="https://sendtoinc.com/about/">About</a>
+        </nav>
+        
+        <nav class="social">
+            
+            <a href="https://twitter.com/sendtoinc" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
+            
+            
+            <a href="http://facebook.com/sendtoinc" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>
+                
+            <a href="/feed.xml" title="RSS Feed">
+                <i class="icon icon-rss black"></i>
+            </a>
+        </nav>
+        <p>Incorporated theme by <a href="https://sendtoinc.com">Inc</a></p>
+    </div>
+</footer>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="/assets/main.js"></script>
+
+
+
+
+
+
+</body>
+</html>
