@@ -4,6 +4,8 @@ Modern Jekyll based blog. Great for companies, products or anything. See live at
 ## Installation & Usage
     bundle install
     jekyll serve --watch
+
+_Note:_ Requires Ruby version 1.9.3 =>    
     
 ## Configuration
 Edit: _config.yml (general options), main.css (theme colors &amp; fonts)
@@ -16,7 +18,7 @@ jekyll-incorporated/
         ├── main.scss
 ```
 
-_Note:_ when editing config.yml, you need to restart jekyll to see the changes.
+_Note:_ when editing _config.yml, you need to restart jekyll to see the changes.
 
     
 ## Publish to Github Pages
@@ -41,6 +43,12 @@ Originally build for [sendtoinc.com](https://sendtoinc.com), your workspace for 
 
 + [http://twitter.com/jorilallo](http://twitter.com/jorilallo)
 + [http://github.com/jorde](http://github.com/jorilallo)
+
+## Todo:
+
++ Documentation
++ Less config files
++ Better deploy scripts
 
 ## Copyright and license
 
