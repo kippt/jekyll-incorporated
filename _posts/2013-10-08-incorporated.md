@@ -44,7 +44,7 @@ draft: false
 
 #### Configurable & Code Snipped Highlighting
 
-/assets/Stylesheets/main.scss:
+/assets/stylesheets/main.scss:
 {% highlight scss %}
 
 /* Bodytext font */
@@ -99,11 +99,10 @@ inc:
       id:       false    
 {% endhighlight %}
 
-**Awesome quotes**
-> “Effective companies tend to communicate more, their people are curious and they have opinions”
-
 **Zoomable images**
 <div class="full zoomable"><img src="/images/incorporated.jpg"></div>
 
+**Awesome quotes**
+> “Effective companies tend to communicate more, their people are curious and they have opinions”
 
-ads
+Stay tuned for updates.
