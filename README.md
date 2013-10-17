@@ -2,7 +2,7 @@
 Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)
 
 ## Installation & Usage
-    bundle
+    bundle install
     jekyll serve --watch
     
 ## Configuration

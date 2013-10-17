@@ -20,7 +20,7 @@
     {% if page.main_image %}
     <meta property="og:image" content="{{ site.url }}/images/{{ page.main_image }}"/>  
     {% endif %}
-    <meta property="og:image" content="/images/{{ site.inc.logo }}"/>   
+    <meta property="og:image" content="{{ site.url }}/images/{{ site.inc.logo }}"/>   
     {% endif %}
     {% if page.excerpt %}
     <meta property="og:description" content="{{ page.excerpt }}"/>

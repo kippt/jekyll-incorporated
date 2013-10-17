@@ -43,16 +43,22 @@ article {
 
     address {
         margin:0;
-        font-size:0.8em;
+        font-size:0.9em;
+        max-height:48px;
+        
+        p {
+            margin:0;
+            display:inline-block;
+        }
 
         img {
-            float:left;
-            border-radius:54px;
-            width:42px;
-            height:42px;
-            margin:0 20px 0 0;
-        }
-        
+            border-radius: 54px;
+            width: 64px;
+            height: 64px;
+            margin: 0 20px 0 0;
+            display: inline-block;
+            margin-top: -28px;
+        }       
         
         .follow {
             margin:1em 0 0;
@@ -175,26 +181,24 @@ article {
 
     pre {
         border: 0;
-        padding: 1.5em 0em;
-        margin:0 0 1.5em;
-        background: #fff;
+        padding: 1.5em 3em;
+        margin:0 -3em 1.5em;
+        background: whitesmoke;
         border: 0;
-        border-top: 2px solid #eee;
-        border-radius: 0;
-        border-bottom: 2px solid #eee;
+        border-radius: 2px;
+        border-bottom:1px solid #eee;
         width:100%;
         font-size:0.8em;
         overflow-x: auto;
+        display:block;
         
         code {
             font-size:0.8em;
             border:0;
-            background:none;
         }
     }
     
     code {
-        background:#eee;
         border-bottom:1px solid #ddd;
         border-radius:2px;
         color:#222;
@@ -210,8 +214,6 @@ article {
 
     .full {
         margin:1.5em -6em;
-        //background:#e6eaed;
-        background:#fafafa;
         padding:0;
         text-align:center;
 
