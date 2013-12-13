@@ -8,6 +8,7 @@ inc:
   # Company information
   company:      Incorporated
   url:          http://sendtoinc.com/
+  root_domain:  sendtoinc.com
   facebook:     sendtoinc
   twitter:      sendtoinc
   gplus:        '101183822199340201470'
