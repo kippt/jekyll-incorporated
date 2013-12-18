@@ -5,7 +5,7 @@ title: Features and bug fixes!
 subtitle: "Mostly bug fixes"
 cover_image: blog-cover.jpg
 
-excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
+excerpt: "We did some stuff this week."
 
 author:
   name: Zach Supalla
