@@ -1,21 +1,20 @@
 inc:
   # Blog Information
-  title:        "Jekyll Incorporated"
-  subtitle:     "Modern Jekyll based blog for companies"
+  title:        "Spark Blog"
+  subtitle:     "Bringing everyday things online."
   cover_image:  blog-cover.jpg
   logo:         logo.png
   
   # Company information
-  company:      Incorporated
-  url:          http://sendtoinc.com/
-  facebook:     sendtoinc
-  twitter:      sendtoinc
-  gplus:        '101183822199340201470'
-  about_link:   https://sendtoinc.com/about/
+  company:      Spark Labs, Inc.
+  url:          https://www.spark.io/
+  facebook:     sparkdevices
+  twitter:      sparkdevices
+  gplus:        '103630479015185085726'
   
   # Product Information
-  product_link: http://incorporated.sendtoinc.com/
-  tagline:      "Get a modern blog for your company"
+  product_link: http://www.spark.io/
+  tagline:      "Wi-Fi for Everything"
   
   # Comments
   disqus:
@@ -24,17 +23,17 @@ inc:
   
   # Sharing settings
   sharing:
-    twitter:    false
-    facebook:   false
+    twitter:    true
+    facebook:   true
     gplus:      false
-    hn:         false
+    hn:         true
     
   
  # Analytics     
   analytics:
     google: 
       # eg. 'UA-123-12'
-      id:       false
+      id:       'UA-37038200-4'
       
       
   # Google Fonts
@@ -43,7 +42,7 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://incorporated.sendtoinc.com
+url:         http://blog.spark.io/
 source:      .
 destination: ./_site
 plugins:     ./_plugins
