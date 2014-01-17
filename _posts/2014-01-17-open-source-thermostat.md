@@ -132,6 +132,6 @@ Connected devices/Internet of Things/M2M/Industrial Internet is a certified **bi
 
 Your billion dollar company starts with a million dollar product, and your million dollar product starts with a hundred dollar prototype. So what are you waiting for?
 
-To download the open source files for the Spark thermostat, visit our [Github page](http://www.github.com/spark/thermostat)
+To download the open source files for the Spark thermostat, visit our [Github page](http://www.github.com/spark/thermostat).
 
 Follow us on [Twitter](http://www.twitter.com/sparkdevices), discuss at [Hacker News](https://news.ycombinator.com/item?id=7075626), and get a Spark Core at [spark.io](http://www.spark.io).
