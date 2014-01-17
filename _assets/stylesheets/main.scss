@@ -20,3 +20,9 @@ $accent: #2077b2;
 @import "icons";
 @import "syntax";
 @import "responsive";
+
+/* A BIT OF CUSTOMIZATION */
+video {
+  margin-left: -144px;
+  margin-bottom: 20px;
+}
