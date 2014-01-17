@@ -1,19 +1,18 @@
 ---
 layout: post
 
-title: Building the Spark-o-stat
+title: Building an open source Nest
 subtitle: ""
 cover_image: blog-cover.jpg
 
-excerpt: "Inspired by the Google acquisition of Nest for $3.2Bn, the Spark Team set out to build an intelligent learning thermostat in less than 24 hours."
+excerpt: "Inspired by the Google acquisition of Nest for $3.2Bn, the Spark team set out to build an intelligent learning thermostat in less than 24 hours."
 
 author:
   name: The Spark Team
   twitter: sparkdevices
 ---
 
-
-## The Internet of Things of coming faster than you think
+## Why we made a thermostat
 
 Earlier this week, Google bought Nest, a connected devices company, for $3.2 billion. This might seem like an ungodly sum for a company that makes thermostats and smoke detectors, but it makes sense. Nest was the first company to figure out what the "Internet of Things" means to consumers and deliver products that people actually want.
 
@@ -22,6 +21,10 @@ What is the "Internet of Things"? It's the concept that one day, everything that
 But in order to do this, Nest had to spend millions of dollars on R&D to build the basic infrastructure behind the product. That made it impossible for anyone but the extremely well-capitalized to enter the market and create connected things.
 
 Well, we want to change that. At Spark, we're making it easier to bring connected devices to market with the Spark Core, our Wi-Fi development kit, and the Spark Cloud, our cloud service for connected devices. And to prove it, we built our own crude approximation of the Nest Learning Thermostat in one day — and we've open sourced everything. In this process, we've come to respect the incredible technical challenges that Nest has solved while also coming to understand how much the game has changed since they first started.
+
+This may seem like a crude hack, but remember - every polished product starts as a rough prototype.
+
+## What you'll need to get started
 
 Building a connected device requires three things. First, you need hardware. In our case, that means sensors for temperature and humidity, plus a motion sensor to figure out whether you're home, and relays to control the furnace and the fan. We also need a display so you can see the current temperature, and an enclosure to protect the messy bits. In our case we're using CNC milled wood and laser-cut acrylic.
 
