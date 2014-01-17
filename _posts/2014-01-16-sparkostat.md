@@ -16,13 +16,16 @@ author:
 
 Earlier this week, Google bought Nest, a connected devices company, for $3.2 billion. This might seem like an ungodly sum for a company that makes thermostats and smoke detectors, but it makes sense. Nest was the first company to figure out what the "Internet of Things" means to consumers and deliver products that people actually want.
 
-What is the "Internet of Things"? It's the concept that one day, everything that we interact with on a day-to-day basis — doors, mailboxes, coffeemakers, etc. — will be connected to the Internet. Nest honed in early on a valuable product to bring online - the thermostat - because they realized that by doing so they could both make people more comfortable in their homes and save serious money on their energy bills.
+What is the "Internet of Things"? It's the concept that one day, everything that we interact with on a day-to-day basis — doors, mailboxes, coffeemakers, etc. — will be connected to the Internet. Nest honed in early on a valuable product to bring online — the thermostat — because they realized that by doing so they could both make people more comfortable in their homes and save serious money on their energy bills.
 
-But in order to do this, Nest had to spend millions of dollars on R&D to build the basic infrastructure behind the product. That made it impossible for anyone but the extremely well-capitalized to enter the market and create connected things.
+But in order to do this, Nest had to spend millions of dollars on R&D to build the basic infrastructure behind the product. The high cost made it impossible for anyone but the extremely well-capitalized to enter the market and create connected things.
 
 Well, we want to change that. At Spark, we're making it easier to bring connected devices to market with the Spark Core, our Wi-Fi development kit, and the Spark Cloud, our cloud service for connected devices. And to prove it, we built our own crude approximation of the Nest Learning Thermostat in one day — and we've open sourced everything. In this process, we've come to respect the incredible technical challenges that Nest has solved while also coming to understand how much the game has changed since they first started.
 
-This may seem like a crude hack, but remember - every polished product starts as a rough prototype.
+This may seem like a crude hack, but remember — every polished product starts as a rough prototype.
+As Alexis Ohanian
+[said](https://twitter.com/towynlin/status/421456323138441216)
+last week, "The first version of everything you love is janky!"
 
 ## What you'll need to get started
 
@@ -32,12 +35,18 @@ Next, you need software. Some of this software runs on the thermostat, reading d
 
 And finally, you need connectivity. We're using our own development kit, the Spark Core, which connects to the Spark Cloud. This lets us link the hardware to our web app and machine learning algorithms, so that the thermostat becomes an extension of the code that we wrote that lives in the web.
 
+## Hardware
 
-## Step 1: Get excited, crazy things are possible.
+The first thing we did this morning (after whiteboarding our attack plan) was to breadboard the hardware.
+The Spark Core served as our connected brain.  We display the temperature on a few
+[Adafruit 8x8 LED matrices](http://www.adafruit.com/products/870).
 
-When we first conceived of the idea to conduct a Spark Team hackathon to build an intelligent thermostat in a day, it seemed completely rediculous, irreverent, and impossible.  But as each of us speculated about the the software, hardware, and connectivity challenges we'd face, we gradually widdled away the complexity and realized that it was possible. We knew we wouldn't be able to build a product ready for mass market in a day, however, we could design and build something that would satiate our imaginations, and plant a seed for others.  Though the reality of 24 hours is harsh and unrealistic, we didn't let that fact cloud our mindset into thinking in terms of a throwaway DIY project; we set out to build a real product.
+The interface for the displays is a common I2C bus, also shared with a
+[Honeywell HumidIcon](http://www.digikey.com/product-detail/en/HIH6131-021-001/480-3652-6-ND/2704706)
+temperature and humidity sensor.
 
-## Enough then, show me.
+For our MVP, we decided a couple LEDs could represent whether the heat and fan were on.
+In the end the same pins would be connected to relays instead of the LEDs.
 
 ![desired temp web ui dial](https://s3.amazonaws.com/blog.spark.io/hackathon_temp_dials.png)
 
@@ -45,3 +54,16 @@ When we first conceived of the idea to conduct a Spark Team hackathon to build a
   <source src="https://s3.amazonaws.com/blog.spark.io/breadboarded.mp4" type="video/mp4" />
 Your browser does not support the video tag.
 </video>
+
+If you want to save energy when a person's not home, then you need a way to know when they are home so you can err on the side of comfort again. We added a
+[Panasonic PIR motion detector](http://pewa.panasonic.com/assets/pcsd/catalog/napion-catalog.pdf).
+
+## Software
+
+
+
+## Connectivity
+
+## Get excited, crazy things are possible.
+
+When we first conceived of the idea to conduct a Spark Team hackathon to build an intelligent thermostat in a day, it seemed completely ridiculous, irreverent, and impossible.  But as each of us speculated about the the software, hardware, and connectivity challenges we'd face, we gradually whittled away the complexity and realized that it was possible. We knew we wouldn't be able to build a product ready for mass market in a day, however, we could design and build something that would satiate our imaginations, and plant a seed for others.  Though the reality of 24 hours is harsh and unrealistic, we didn't let that fact cloud our mindset into thinking in terms of a throwaway DIY project; we set out to build a real product.
