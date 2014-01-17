@@ -12,7 +12,7 @@ author:
   twitter: sparkdevices
 ---
 
-Earlier this week, Google bought Nest, a connected devices company, for $3.2 billion. This might seem like an ungodly sum for a company that makes thermostats and smoke detectors, but it makes absolute sense. Nest's products are beautifully esign, their team is overflowing with talent, and they were the first company to figure out what the "Internet of Things" means to consumers and deliver products that people actually *want*.
+Earlier this week, Google bought Nest, a connected devices company, for $3.2 billion. This might seem like an ungodly sum for a company that makes thermostats and smoke detectors, but it makes absolute sense. Nest's products are beautifully designed, their team is overflowing with talent, and they were the first company to figure out what the "Internet of Things" means to consumers and deliver products that people actually *want*.
 
 But in order to do this, Nest had to spend millions of dollars on R&D to build the basic infrastructure behind the product. The high cost made it impossible for anyone but the extremely well-capitalized to enter the market and create connected things.
 
