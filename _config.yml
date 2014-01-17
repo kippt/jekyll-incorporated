@@ -42,7 +42,7 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://spark.github.io/blog
+url:         http://blog.spark.io/
 source:      .
 destination: ./_site
 plugins:     ./_plugins
