@@ -3,7 +3,7 @@ layout: post
 
 title: Building an open source Nest
 subtitle: ""
-cover_image: blog-cover.jpg
+cover_image: spark-thermostat2.jpg
 
 excerpt: "Inspired by the Google acquisition of Nest for $3.2Bn, the Spark team set out to build an intelligent learning thermostat in less than 24 hours."
 
@@ -12,13 +12,18 @@ author:
   twitter: sparkdevices
 ---
 
-Earlier this week, Google bought Nest, a connected devices company, for $3.2 billion. This might seem like an ungodly sum for a company that makes thermostats and smoke detectors, but it makes sense. Nest was the first company to figure out what the "Internet of Things" means to consumers and deliver products that people actually want.
+Earlier this week, Google bought Nest, a connected devices company, for $3.2 billion. This might seem like an ungodly sum for a company that makes thermostats and smoke detectors, but it makes absolute sense. Nest's products are beautifully esign, their team is overflowing with talent, and they were the first company to figure out what the "Internet of Things" means to consumers and deliver products that people actually *want*.
 
 But in order to do this, Nest had to spend millions of dollars on R&D to build the basic infrastructure behind the product. The high cost made it impossible for anyone but the extremely well-capitalized to enter the market and create connected things.
 
-Well, we want to change that. At Spark, we're making it easier to bring connected devices to market with the Spark Core, our Wi-Fi development kit, and the Spark Cloud, our cloud service for connected devices. And to prove it, we built our own crude approximation of the Nest Learning Thermostat in one day — and we've open sourced everything. In this process, we've come to respect the incredible technical challenges that Nest has solved while also coming to understand how much the game has changed since they first started.
+Well, we want to change that. At Spark, we're making it easier to bring connected devices to market with the Spark Core, our Wi-Fi development kit, and the Spark Cloud, our cloud service for connected devices. And to prove it, we built our own approximation of the Nest Learning Thermostat in one day — and we've open sourced everything. In this process, we've come to respect the incredible technical challenges that Nest has solved while also coming to understand how much the game has changed since they first started.
 
-This may seem like a crude hack, but remember — every polished product starts as a rough prototype.
+<video width="820"  muted="true" loop="true" autoplay="true">
+  <source src="https://s3.amazonaws.com/blog.spark.io/finalproduct.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+Fair warning - we're not claiming to have matched the Nest thermostat in a day; far from it. But remember — every polished product starts as a rough prototype.
 As Alexis Ohanian
 [said](https://twitter.com/towynlin/status/421456323138441216)
 last week, "The first version of everything you love is janky!"
@@ -27,7 +32,7 @@ last week, "The first version of everything you love is janky!"
 
 First, you need hardware. In our case, that means sensors for temperature and humidity, plus a motion sensor to figure out whether you're home, and relays to control the furnace and the fan. We also need a display so you can see the current temperature, and an enclosure to protect the messy bits.
 
-<video width="820" style="margin-left: -144px" muted="true" loop="true" autoplay="true">
+<video width="820"  muted="true" loop="true" autoplay="true">
   <source src="https://s3.amazonaws.com/blog.spark.io/breadboarded.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
@@ -43,7 +48,7 @@ temperature and humidity sensor, which shares the I2C bus with the displays.
 
 All in all, it took about an hour to throw together this breadboarded prototype, although we had to order the components a couple of days beforehand. It took another couple of hours to pull together working firmware (see the software section below).
 
-<video width="820" style="margin-left: -144px" muted="true" loop="true" autoplay="true">
+<video width="820"  muted="true" loop="true" autoplay="true">
   <source src="https://s3.amazonaws.com/blog.spark.io/cncmilled.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
@@ -52,21 +57,21 @@ The next step is to build an enclosure. The Nest enclosure is glass and aluminum
 
 First, we CNC milled two wooden rings: one to act as a stationary base, and other to spin freely as a temperature controller (turn the ring clockwise to increase the temperature, and counterclockwise to decrease the temperature).
 
-<video width="820" style="margin-left: -144px" muted="true" loop="true" autoplay="true">
+<video width="820"  muted="true" loop="true" autoplay="true">
   <source src="https://s3.amazonaws.com/blog.spark.io/lasercut.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
 Next, we laser cut three acrylic disks: one to act as the faceplate (which we later sanded to make it frosty), a second to act as the wall mounting plate, and a third connects the spinning wooden ring to a potentiometer.
 
-<video width="820" style="margin-left: -144px" muted="true" loop="true" autoplay="true">
+<video width="820"  muted="true" loop="true" autoplay="true">
   <source src="https://s3.amazonaws.com/blog.spark.io/enclosure.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
 Once we completed the enclosure, we converted our breadboarded circuit into a more permanent design by permanently soldering the components.
 
-<video width="820" style="margin-left: -144px" muted="true" loop="true" autoplay="true">
+<video width="820" muted="true" loop="true" autoplay="true">
   <source src="https://s3.amazonaws.com/blog.spark.io/mohitsoldering.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
@@ -75,14 +80,14 @@ Once we completed the enclosure, we converted our breadboarded circuit into a mo
 
 Next, you need software. Some of this software runs on the thermostat (often called 'firmware'), reading data from the sensors, controlling the relays, and displaying data on the screen. But since this is a connected thermostat, we also want a web interface so that it can be controlled from your smartphone or computer. And since it's a learning thermostat, we also want to do some machine learning so that we can over time improve your comfort and energy efficiency. This software will run in the cloud.
 
-<video width="820" style="margin-left: -144px" muted="true" loop="true" autoplay="true">
+<video width="820" muted="true" loop="true" autoplay="true">
   <source src="https://s3.amazonaws.com/blog.spark.io/workingproto.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
 'Firmware' is called *firm* because it's traditionally more locked down than software, since it runs on a little chip that usually is never accessed again after the product is delivered to the customer. But adding an internet connection changes things pretty significantly. Firmware is no longer *firm* when you can update it from anywhere with the click of a button. With a Spark Core, you can flash new code onto your chip using our web IDE.
 
-<video width="820" style="margin-left: -144px" muted="true" loop="true" autoplay="true">
+<video width="820" muted="true" loop="true" autoplay="true">
   <source src="https://s3.amazonaws.com/blog.spark.io/joescode.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
@@ -91,10 +96,10 @@ Our thermostat is complemented with a cloud-based web app that handles all of th
 
 The Spark Cloud exposes your connected device through a REST API. That means that you can interact with it from any language that can generate HTTP requests, which is basically anything.
 
-We had hoped to introduce some basic machine learning into this prototype, since part of the magic of Nest is that it learns. We didn't have time to implement our ideas, but given another day we could have put something basic in place.
+The beauty of a connected device is that it can be constantly improving, whether it's by updating the firmware, updating the cloud software, or by using machine learning to optimize and improve the logic of the device.
 
-<video width="820" style="margin-left: -144px" muted="true" loop="true" autoplay="true">
-  <source src="https://s3.amazonaws.com/blog.spark.io/userinterface.mp4" type="video/mp4" />
+<video width="820" muted="true" loop="true" autoplay="true">
+  <source src="https://s3.amazonaws.com/blog.spark.io/softwareinaction.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -112,7 +117,12 @@ The [Spark Core](http://www.spark.io) has a Wi-Fi module built in, and because i
 
 Once our thermostat was complete, it was time to assemble it all together into the final package and mount it on the wall.
 
-**Video and more content TBD**
+<video width="820"  muted="true" loop="true" autoplay="true">
+  <source src="https://s3.amazonaws.com/blog.spark.io/underthecovers.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+All in, we spent about $70 on components to put this together (including $39 for the Spark Core); the wood and acrylic were free. We started working at 10am and finished at 3am, with 3.5 engineers involved (one went to bed early), and the only work we did in advance was order the electronic components.
 
 ## Get excited, crazy things are possible.
 
