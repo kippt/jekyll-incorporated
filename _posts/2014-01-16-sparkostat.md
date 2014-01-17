@@ -36,4 +36,9 @@ When we first conceived of the idea to conduct a Spark Team hackathon to build a
 
 ## Enough then, show me.
 
+![desired temp web ui dial](https://s3.amazonaws.com/blog.spark.io/hackathon_temp_dials.png)
 
+<video width="820" style="margin-left: -144px" muted="true" loop="true" autoplay="true">
+  <source src="https://s3.amazonaws.com/blog.spark.io/breadboarded.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+</video>
