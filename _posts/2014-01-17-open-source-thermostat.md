@@ -18,7 +18,7 @@ But in order to do this, Nest had to spend millions of dollars on R&D to build t
 
 Well, we want to change that. At Spark, we're making it easier to bring connected devices to market with the Spark Core, our Wi-Fi development kit, and the Spark Cloud, our cloud service for connected devices. And to prove it, we built our own approximation of the Nest Learning Thermostat in one day — and we've open sourced everything. In this process, we've come to respect the incredible technical challenges that Nest has solved while also coming to understand how much the game has changed since they first started.
 
-<video width="820"  muted="true" loop="true">
+<video width="820" muted="true" loop="true">
   <source src="http://s3.amazonaws.com/blog.spark.io/finalproduct.mp4" type="video/mp4" />
   <source src="http://s3.amazonaws.com/blog.spark.io/finalproduct.webm" type="video/webm" />
   Your browser does not support the video tag.

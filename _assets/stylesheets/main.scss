@@ -23,6 +23,15 @@ $accent: #2077b2;
 
 /* A BIT OF CUSTOMIZATION */
 video {
-  margin-left: -144px;
+  width: 100%;
+  height: auto;
   margin-bottom: 20px;
+}
+
+@media (min-width: 900px) {
+  video {
+    width: 820px;
+    height: auto;
+    margin-left: -144px;
+  }
 }
