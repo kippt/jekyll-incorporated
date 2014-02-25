@@ -67,7 +67,7 @@ And speaking of Github...
 
 <div class="full"><img src="/images/spark-source.png"></div>
 
-As the volume of our open source content grows, it's become a little unwieldy. Now if you'd like to browse our open source repositories, visit [spark.github.io](https://spark.github.io) to see an organized view of the open source tech stack for connected devices that we've been publishing over the last few months.
+As the volume of our open source content grows, it's become a little unwieldy. Now if you'd like to browse our open source repositories, visit [spark.github.io](http://spark.github.io) to see an organized view of the open source tech stack for connected devices that we've been publishing over the last few months.
 
 Using the Github tools we've made available, you can star a repository to follow it for changes, create an issue to request a feature or share a bug, or track our workflow on [waffle.io](http://www.waffle.io).
 
