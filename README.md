@@ -30,6 +30,13 @@ Run rake task. **NOTE: It will deploy the generated site to _gh-pages_ branch ov
 rake site:publish
 ```
 
+## Usage examples
+
+* Adroll Engineering http://tech.adroll.com/
+* Brace.io blog http://blog.brace.io/
+* Spark.io blog http://blog.spark.io/
+* Department of Better Technology http://blog.dobt.co/
+
 ## Authors
 
 Originally build for [sendtoinc.com](https://sendtoinc.com), your workspace for sharing and organizing knowledge
