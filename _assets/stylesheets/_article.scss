@@ -10,7 +10,7 @@ article {
     .social {
         height:40px;
         padding:10px 0;
-        
+
         > div {
             display:inline-block;
             min-width:120px;
@@ -45,7 +45,7 @@ article {
         margin:0;
         font-size:0.9em;
         max-height:48px;
-        
+
         p {
             margin:0;
             display:inline-block;
@@ -58,8 +58,8 @@ article {
             margin: 0 20px 0 0;
             display: inline-block;
             margin-top: -28px;
-        }       
-        
+        }
+
         .follow {
             margin:1em 0 0;
         }
@@ -73,21 +73,21 @@ article {
         font-weight:400;
         margin:0 0 1.5em;
     }
-    
-    
+
+
     ol, ul {
         font-weight: 600;
         margin: 1.5em 0;
         padding: 0;
         list-style-position: outside;
         padding-left: 1.5em;
-        
+
         li {
             font-weight:400;
             margin-bottom:0.5em;
         }
     }
-    
+
     blockquote {
         border:0;
         font-size:24px;
@@ -191,23 +191,23 @@ article {
         font-size:0.8em;
         overflow-x: auto;
         display:block;
-        
+
         code {
             font-size:0.8em;
             border:0;
         }
     }
-    
+
     code {
         border-bottom:1px solid #ddd;
         border-radius:2px;
         color:#222;
-    } 
+    }
 
     .rounded img {
         border-radius:6px;
     }
-    
+
     .border img {
         border:1px solid #ddd;
     }
@@ -243,6 +243,13 @@ article {
             transition:0.4s all ease;
             box-shadow:0 2px 5px rgba(0,0,0,0.5);
         }
+    }
+
+    .gist {
+      margin: 1.5em -6em;
+      table {
+        width: 100%;
+      }
     }
 
 }
