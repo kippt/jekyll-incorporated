@@ -22,7 +22,7 @@ Up until now, the only way to communicate with the Spark Core was to ask it some
 
 But what if you want the Spark Core to talk to you? Enter `Spark.publish()`. This feature lets you publish events from the Spark Core, which can be subscribed to through the API. Events are published to a topic, and can be public or private.
 
-To showcase this feature, I'm going to build a Spark-powered motion detector. Here's the hardware:
+To showcase this feature, I'm going to build a Spark-powered motion detector, using an off-the-shelf [PIR sensor](http://www.adafruit.com/products/189). Here's the hardware:
 
 <div class="full"><img src="/images/core-and-pir-live.jpg"></div>
 
