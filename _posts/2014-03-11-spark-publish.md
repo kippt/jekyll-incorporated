@@ -13,7 +13,7 @@ author:
   image: zach.jpg
 ---
 
-Last Friday, we wrapped up Sprint 8 on our team. We released a number of minor bug fixes and improvements, but the one major feature that we delivered is `Spark.publish()`. Here are some examples:
+Last Friday, we wrapped up Sprint 7 on our team. We released a number of minor bug fixes and improvements, but the one major feature that we delivered is `Spark.publish()`. Here are some examples:
 
 <script src="https://gist.github.com/cazzo/9495585.js">
 </script>
