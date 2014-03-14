@@ -39,7 +39,7 @@ namespace :site do
     Dir.mktmpdir do |tmp|
       cp_r "_site/.", tmp
       Dir.chdir tmp
-      File.delete("CNAME")
+      sh "rm CNAME"
       system "git init"
       system "git add ."
       message = "Site updated at #{Time.now.utc}"
