@@ -19,15 +19,15 @@ We just completed our fourth sprint on the Spark platform, where our main focus 
 
 The most visible enhancement we put in place during this sprint was adding example Core apps to the IDE that can you can fork and edit. Check it out:
 
-<div class="full zoomable"><img src="/images/example-apps.png"></div>
+<div class="full zoomable"><img src="{{ site.url }}/images/example-apps.png"></div>
 
 When you open an example app, you can fork it into your own apps in order to edit it and flash it onto a Core.
 
-<div class="full zoomable"><img src="/images/fork.png"></div>
+<div class="full zoomable"><img src="{{ site.url }}/images/fork.png"></div>
 
 These apps are populated from a Github repository at [github.com/spark/examples](http://www.github.com/spark/examples).
 
-<div class="full zoomable"><img src="/images/github-examples.png"></div>
+<div class="full zoomable"><img src="{{ site.url }}/images/github-examples.png"></div>
 
 We are working on providing a mechanism to enable community contributions of example apps. In addition, this feature provides the first step toward libraries, a frequently requested feature; now that we have a linkage between the Spark IDE and Github, it opens up a lot of opportunities for collaborative coding through Spark.
 
@@ -35,7 +35,7 @@ We are working on providing a mechanism to enable community contributions of exa
 
 Previously the Spark API put in place basic authentication where each user has one API token, which can be used to securely access and control that user's Spark Core.
 
-<div class="full zoomable"><img src="/images/access-token.png"></div>
+<div class="full zoomable"><img src="{{ site.url }}/images/access-token.png"></div>
 
 This feature, however, was limited to only one access token. This means that if multiple clients were to use the access token (for instance, the Spark iOS app and the user's own webapp), either one could request a new access token, revoking the previous token, and causing a failure in the other app.
 

@@ -17,7 +17,7 @@ We're all pretty big nerds at Spark HQ, so it was pretty cool to see this in my 
 
 ### Spark Core on Maker Shed!
 
-<div class="full"><img src="/images/maker-shed.jpg"></div>
+<div class="full"><img src="{{ site.url }}/images/maker-shed.jpg"></div>
 
 Maker Media is kind of a big deal in our little corner of the world, and they've been supporters of ours for a while. Behind the scenes we've been working with them for quite some time to get the Spark Core on their shelves.
 
@@ -65,13 +65,13 @@ And speaking of Github...
 
 ### Our open source has a new home
 
-<div class="full"><img src="/images/spark-source.png"></div>
+<div class="full"><img src="{{ site.url }}/images/spark-source.png"></div>
 
 As the volume of our open source content grows, it's become a little unwieldy. Now if you'd like to browse our open source repositories, visit [spark.github.io](http://spark.github.io) to see an organized view of the open source tech stack for connected devices that we've been publishing over the last few months.
 
 Using the Github tools we've made available, you can star a repository to follow it for changes, create an issue to request a feature or share a bug, or track our workflow on [waffle.io](http://www.waffle.io).
 
-<div class="full"><img src="/images/waffle.png"></div>
+<div class="full"><img src="{{ site.url }}/images/waffle.png"></div>
 
 Starting with the [core-firmware](https://www.github.com/spark/core-firmware) repository, we're sharing our backlog with the community to get your feedback about our priorities and to get your help and input wherever you're willing to provide it. Workflows for other repositories will go live over the next couple of weeks.
 

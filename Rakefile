@@ -19,6 +19,14 @@ namespace :site do
     })).process
   end
 
+  task :genstage do
+    Jekyll::Site.new(Jekyll.configuration({
+      "source"      => ".",
+      "destination" => "_site",
+      "config"      => ["_config.yml", "_config-staging.yml"]
+    })).process
+  end
+
 
   desc "Generate and publish blog to gh-pages"
   task :publish => [:generate] do
@@ -35,7 +43,7 @@ namespace :site do
   end
 
   desc "Generate and publish blog to staging"
-  task :staging => [:generate] do
+  task :staging => [:genstage] do
     Dir.mktmpdir do |tmp|
       cp_r "_site/.", tmp
       Dir.chdir tmp

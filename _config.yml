@@ -4,42 +4,42 @@ inc:
   subtitle:     "Bringing everyday things online."
   cover_image:  blog-cover.jpg
   logo:         logo.png
-  
+
   # Company information
   company:      Spark Labs, Inc.
   url:          https://www.spark.io/
   facebook:     sparkdevices
   twitter:      sparkdevices
   gplus:        '103630479015185085726'
-  
+
   # Product Information
   product_link: http://www.spark.io/
   tagline:      "Wi-Fi for Everything"
-  
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  false
-  
+
   # Sharing settings
   sharing:
     twitter:    true
     facebook:   true
     gplus:      false
     hn:         true
-    
-  
- # Analytics     
+
+
+ # Analytics
   analytics:
-    google: 
+    google:
       # eg. 'UA-123-12'
       id:       'UA-37038200-4'
-      
-      
+
+
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'Droid+Sans:400,700'
-  
+
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 url:         http://blog.spark.io

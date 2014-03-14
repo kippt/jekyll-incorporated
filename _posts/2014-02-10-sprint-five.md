@@ -17,7 +17,7 @@ As promised last time around, a major focus of Sprint 5 was to deliver "multiple
 
 ### Multiple files in the Spark IDE
 
-<div class="full zoomable"><img src="/images/multi-files.png"></div>
+<div class="full zoomable"><img src="{{ site.url }}/images/multi-files.png"></div>
 
 See that little + icon at the top of the screen? Give that the old clickety-click and you'll find yourself with multiple files.
 
@@ -29,7 +29,7 @@ This is the first step on a longer journey to make it easy to import and share l
 
 ### Android app: now open source!
 
-<div class="full zoomable"><img src="/images/android-app.png"></div>
+<div class="full zoomable"><img src="{{ site.url }}/images/android-app.png"></div>
 
 The Spark Android app is now open source, ready to act as a template for your own mobile apps for your Spark-powered products.
 

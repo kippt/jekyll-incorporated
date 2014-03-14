@@ -24,17 +24,17 @@ But what if you want the Spark Core to talk to you? Enter `Spark.publish()`. Thi
 
 To showcase this feature, I'm going to build a Spark-powered motion detector, using an off-the-shelf [PIR sensor](http://www.adafruit.com/products/189). Here's the hardware:
 
-<div class="full"><img src="/images/core-and-pir-live.jpg"></div>
+<div class="full"><img src="{{ site.url }}/images/core-and-pir-live.jpg"></div>
 
 If you're following along, here's a Fritzing diagram showing how the components are wired.
 
-<div class="full"><img src="/images/core-and-pir-fritzing.png"></div>
+<div class="full"><img src="{{ site.url }}/images/core-and-pir-fritzing.png"></div>
 
 My goal is to have this motion detector inform me when it detects motion (natch). Perhaps it could even text me through Twilio? Hello, ad hoc security system.
 
 First, I'll connect my Spark Core to my Wi-Fi network. I'm going to use the recently released Spark CLI. Once the CLI is installed through `npm install -g spark-cli`, I can start to play.
 
-<img src="/images/setup.gif">
+<img src="{{ site.url }}/images/setup.gif">
 
 Now my Core is connected to the internet and to the Cloud, which I know because its little LED is breathing cyan. Breathing = happy and alive.
 
