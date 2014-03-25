@@ -27,9 +27,16 @@ namespace :site do
     })).process
   end
 
+  task :genprod do
+    Jekyll::Site.new(Jekyll.configuration({
+      "source"      => ".",
+      "destination" => "_site",
+      "config"      => ["_config.yml", "_config-prod.yml"]
+    })).process
+
 
   desc "Generate and publish blog to gh-pages"
-  task :publish => [:generate] do
+  task :publish => [:genprod] do
     Dir.mktmpdir do |tmp|
       cp_r "_site/.", tmp
       Dir.chdir tmp
