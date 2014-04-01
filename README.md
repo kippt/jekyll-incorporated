@@ -1,6 +1,16 @@
 # Jekyll Incorporated
 Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)
 
+## Contributing (Spark Team Flow)
+
+1. Get repo: `git clone ...`
+1. Get changes: `git pull`
+1. Fork a branch from master: `git checkout master` and `git checkout -b feature/spark-telegraph`
+1. Write Markdown Content in `_posts` dir
+1. Verify it looks good locally ( see instructions below )
+1. Deploy to Staging ( see instructions below)
+1. Deploy to production ( see instructions below)
+ 
 ## Installation & Usage
     bundle install
     jekyll serve --watch
