@@ -33,7 +33,7 @@ namespace :site do
       "destination" => "_site",
       "config"      => ["_config.yml", "_config-prod.yml"]
     })).process
-
+  end
 
   desc "Generate and publish blog to gh-pages"
   task :publish => [:genprod] do
