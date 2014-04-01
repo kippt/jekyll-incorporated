@@ -4,7 +4,7 @@ layout: post
 title: Throwbackathon
 cover_image: blog-cover.jpg
 
-excerpt: "Hunger for purposeful connection? Check out Spark's next-gen device!"
+excerpt: "Hungry for purposeful connection? Check out Spark's next-gen device!"
 
 author:
   name: Zachary Crockett
@@ -33,6 +33,7 @@ Although this incredible project is still in early beta, we wanted to share some
 
 And, recognizing that not all of our users have mastered the demands of morse code, we've also included an autocorrect feature that will help smooth over common mistakes. 
 
+<div class="full"><img src="//s3.amazonaws.com/blog.spark.io/telegraph_web.jpg"></div>
 
 ## Kickstarter?
 
