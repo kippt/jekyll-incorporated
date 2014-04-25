@@ -109,7 +109,7 @@ Version 0.2.1 is being programmed on the current manufacturing run.
 And lastly, speaking of manufacturing...
 
 
-## Stealth
+## The Stealth Core
 
 Shhh... I've got a secret...
 
@@ -124,3 +124,11 @@ Check this out:
 <div class="full"><img src="/images/stealth-core.jpg"></div>
 
 ### BOOM.
+
+Starting next week, we'll be shipping out thousands of new Spark Cores to our anxiously awaiting customers! We'll finally have Cores in stock, so hopefully you'll never have to wait for a Core again!
+
+This time around, the Cores (codename: **Stealth Core**) will be black. But don't worry - *nothing has changed other than the color.* The black Cores are identical to the previous white Cores, except they're black.
+
+How come we changed the color? It's a long complicated story that gets way into the bowels of the supply chain, but basically, it turns out that white boards are difficult to manufacture, and our PCB fab house didn't want to make them anymore. For the near term, Spark Cores will be black - call it a Special Edition™ - and long term we're exploring some new custom color options so that we can make our boards look truly distinctive.
+
+We'll let you know when Cores are shipping, and if you've got one on order, we hope you enjoy the new color!
