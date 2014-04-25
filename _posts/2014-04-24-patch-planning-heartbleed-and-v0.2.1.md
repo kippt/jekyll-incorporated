@@ -47,7 +47,7 @@ gave it a catchy name, a nice icon, a
 [pretty website](http://heartbleed.com/),
 and tried to spread the word as fast as they could.
 
-<div class="full"><img src="/images/heartbleed.png"></div>
+<div class="full"><img src="{{ site.url }}/images/heartbleed.png"></div>
 
 As soon as we heard on April 8, we started patching our systems,
 and by that afternoon all Spark servers were no longer vulnerable.
@@ -81,7 +81,7 @@ The tagged stable release is downloadable from the
 page on GitHub.
 You'll see commit links in the settings drawer if you click to expand the version.
 
-<div class="full"><img src="/images/v0.2.1.png"/></div>
+<div class="full"><img src="{{ site.url }}/images/v0.2.1.png"/></div>
 
 There were also some sweet features added to the Sparkulator itself.
 My favorite? You can now download your compiled binaries and flash them over USB.
@@ -89,7 +89,7 @@ This complements the Spark CLI cloud compile feature to add an additional option
 for those seeking a middle ground between coding, compiling, and flashing
 *completely* in the cloud versus *completely* locally.
 
-<div class="full"><img src="/images/download-firmware-binary.png"/></div>
+<div class="full"><img src="{{ site.url }}/images/download-firmware-binary.png"/></div>
 
 Highlighted changes from v0.2.0 to v0.2.1:
 
@@ -121,7 +121,7 @@ Are you ready?
 
 Check this out:
 
-<div class="full"><img src="/images/stealth-core.jpg"></div>
+<div class="full"><img src="{{ site.url }}/images/stealth-core.jpg"></div>
 
 ### BOOM.
 
