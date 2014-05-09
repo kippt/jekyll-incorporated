@@ -10,11 +10,11 @@ body {
 }
 
 .is-visible {
-    
+
     .site-nav {
         top:100px;
     }
-    
+
     .top-nav {
         opacity:1;
         -webkit-transform: translate3d(0px, 0px, 0px);
@@ -35,7 +35,7 @@ a {
     color:$accent;
     text-decoration:none;
     transition:all 0.2s ease;
-    
+
     &:hover {
         color:darken($accent, 50%);
         text-decoration:none;
@@ -54,12 +54,12 @@ a {
     max-height:460px;
     overflow:hidden;
     background:#eee;
-    
+
     > div {
         max-height: 480px;
         line-height: 0;
     }
-    
+
     .image {
         width: 100%;
         top: 0;
@@ -69,15 +69,15 @@ a {
 
 .index {
     margin:0 5em;
-    
+
     > div{
         display:table-cell;
     }
-    
+
     .title {
         margin:0em 0 0.6em;
     }
-    
+
     .avatar {
         float:left;
         border-radius:62px;
@@ -136,41 +136,46 @@ a {
             transition:0.2s all ease;
             line-height:0;
             text-align:center;
-        
+
             &:hover {
                 transition:0.2s all ease;
                 background:#fff;
-                
+
                 .icon-rss {
                     background-position:1px -11px;
                 }
-                
+
                 .icon-twitter {
                     background-position:0px -15px;
                 }
-                
+
                 .icon-facebook {
                      background-position:0px -14px;
                  }
+
+                .icon-github {
+                    background-position:0px -15px;
+                }
+
             }
         }
     }
-    
+
     h1 {
         font-size:2.7em;
         line-height:1.4em;
     }
-    
+
     h3 {
         font-size:1.3em;
     }
-    
+
     h1, h3 {
         color:#fff;
         margin:0;
         font-weight:600;
     }
-    
+
 }
 
 .pagination {
@@ -183,17 +188,17 @@ a {
     background:whitesmoke;;
     color:#aaa;
     font-size:0.8em;
-    
+
     a {
         color:#777;
         border:0;
         margin:0 0.5em;
-        
+
         &:hover {
             color:#222;
         }
     }
-    
+
     p {
         color:#999;
         a {
@@ -201,14 +206,14 @@ a {
             color:#999;
         }
     }
-    
+
     nav {
        display:inline-block;
     }
-    
+
     .social {
         float:right;
-        
+
         a {
             color:#000;
             border:0;
@@ -266,7 +271,7 @@ a {
         border-color:darken(#4dab7d, 10%);
         color:#fff;
     }
-    
+
     &:active {
         box-shadow:none;
     }
