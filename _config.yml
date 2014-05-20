@@ -4,7 +4,7 @@ inc:
   subtitle:     "Modern Jekyll based blog for companies"
   cover_image:  blog-cover.jpg
   logo:         logo.png
-  
+
   # Company information
   company:      Incorporated
   url:          http://sendtoinc.com/
@@ -12,34 +12,42 @@ inc:
   twitter:      sendtoinc
   gplus:        '101183822199340201470'
   about_link:   https://sendtoinc.com/about/
-  
+
   # Product Information
   product_link: http://incorporated.sendtoinc.com/
   tagline:      "Get a modern blog for your company"
-  
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  false
-  
+
   # Sharing settings
   sharing:
     twitter:    false
     facebook:   false
     gplus:      false
     hn:         false
-    
-  
- # Analytics     
+
+
+ # Analytics
   analytics:
     google: false # Add tracking code in _includes/_google-analytics.html
-      
-      
+
+
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'Droid+Sans:400,700'
-  
+
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
+
+author:
+  name: Brian Wheeler
+  link: brianw.io
+  twitter: karrisaarinen
+  gplus: 100687498195339762535
+  bio: Co-founder, Design
+  image: ks.png
 
 url:         http://incorporated.sendtoinc.com
 source:      .
