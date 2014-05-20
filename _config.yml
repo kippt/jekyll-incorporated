@@ -49,6 +49,8 @@ author:
   bio: Co-founder, Design
   image: ks.png
 
+show_author_thumbnails: false
+
 url:         http://incorporated.sendtoinc.com
 source:      .
 destination: ./_site
