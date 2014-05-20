@@ -2,12 +2,12 @@
 layout: base
 ---
 <div class="blog-cover" style="background-image:url(/images/{{ site.inc.cover_image }});">
-    
+
     <section>
         <div class="container">
             <h1>{{ site.inc.title }}</h1>
             {% if site.inc.subtitle %}<h3>{{ site.inc.subtitle }}</h3>{% endif %}
-        
+
             {% if site.inc.twitter %}
             <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
             {% endif %}
@@ -26,12 +26,18 @@ layout: base
 {% for post in paginator.posts %}
   {% unless post.draft %}
     <section class="index">
-        <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
+        {% if site.show_author_thumbnails %}
+          {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}
+        {% endif %}
         <div>
             <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
             <p>{{ post.excerpt }}</p>
             <div class="meta">
-                Written By <address>{{ post.author.name }}</address> &mdash;
+                {% assign author = post.author %}
+                {% if post.author == %}
+                  {% assign author = site.author %}
+                {% endif %}
+                Written By <address>{{ author.name }}</address> &mdash;
                 <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
             </div>
         </div>
