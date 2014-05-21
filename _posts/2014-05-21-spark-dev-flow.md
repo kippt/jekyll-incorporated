@@ -19,7 +19,7 @@ Skeleton Content:
 - Spark Libraries
   - Illustrated Neopixel library usage.
   - Picture of final product
-  - short video (<20s) illustrating library usage.
+  - short video, ~20s, illustrating library usage.
 
 - CLI: Discussion of delivered awesome sauce.
 
