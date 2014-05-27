@@ -11,7 +11,6 @@ author:
   bio: Cloud Operations Engineer
 
 ---
-## BLOG POST
 
 We are very excited to announce the beginnings a library system for the Spark ecosystem; inspired by [npm](https://npmjs.org), powered by GitHub, and fully integrated with the [Build IDE](https://www.spark.io/build).
 
@@ -23,6 +22,10 @@ Let's take a quick walkthrough of this feature to illustrate how to use a librar
 
 Sweet!  An array of really bright NeoPixel's beaming their blinding beauty without typing a single character of code in about a minute. Not too shabby.
 
-Get started by opening up the library drawer in the Spark build IDE. Please also checkout the [Library Documentation](http://docs.spark.io/start/#flash-apps-with-spark-build-using-libraries) and [community announcement](TODO).
+Get started by opening up the library drawer in the Spark build IDE:
+
+<div class="full"><img src="{{ site.url }}/images/library-icon.png"></div>
+
+Please also checkout the [Library Documentation](http://docs.spark.io/start/#flash-apps-with-spark-build-using-libraries) and [community announcement]().
 
 Have fun and let us know what you think!
