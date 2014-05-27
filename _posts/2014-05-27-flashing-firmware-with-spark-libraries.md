@@ -26,6 +26,6 @@ Get started by opening up the library drawer in the Spark build IDE:
 
 <div class="full"><img src="{{ site.url }}/images/library-icon.png"></div>
 
-Please also checkout the [Library Documentation](http://docs.spark.io/start/#flash-apps-with-spark-build-using-libraries) and [community announcement]().
+Please also checkout the [Library Documentation](http://docs.spark.io/start/#flash-apps-with-spark-build-using-libraries) and [community announcement](https://community.spark.io/t/spark-libraries-available-in-ide/4652).
 
 Have fun and let us know what you think!
