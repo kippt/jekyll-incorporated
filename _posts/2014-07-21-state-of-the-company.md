@@ -17,11 +17,11 @@ Ok guys, this one's a doozy.
 
 We've got some big announcements to share, and I thought it would be prudent to send you a letter. However, the letter has gotten quite long. So first, I present a summarized version:
 
-- Spark as a company is growing up, and that's mostly a good thing.
+- Spark as a company is growing up, and that's a good thing.
 - We recently announced Spark OS, our open source operating system for the Internet of Things (IoT). Spark OS takes the foundation we built with the Spark Core and expands upon it. Over the course of the rest of the year we'll be building out features for people deploying thousands of connected products or more.
 - We recently released the [Spark Server](https://github.com/spark/spark-server), our open source back-end for the Spark Core. You can now run Spark Cores on your own infrastructure! If you want a commercial solution for large-scale deployments (>1K units), come [talk to us](mailto:sales@spark.io).
 - We've just pushed out a major stability update called a "deep update". This update will patch the CC3000 Wi-Fi module and make the connection to the Spark Cloud more consistent. To receive the update, simply plug in your Spark Core and get it online, and then visit the [Spark Build IDE](https://www.spark.io/build) for instructions.
-- Some investors decided to give us some money, which means that we can grow and take on new challenges. Hooray!
+- Some investors decided to give us some money, which means that we can grow and take on new challenges while growing our community and sticking to our roots. Hooray!
 
 Now, for those who came for a story, let's dig in a bit deeper:
 
@@ -37,7 +37,7 @@ I'd like to share a page from my first pitch deck for Spark, created in February
 
 <div class="full"><img src="{{ site.url }}/images/pitchdeck.png"></div>
 
-The big issue that I saw was that hardware manufacturers didn't have a technology partner to help make their products better. Without an OS, hardware is limited to its capabilities when the product is shipped. An operating system provides a way for people to build applications for the hardware, which gives us Microsoft Office on the PC, and Angry Birds on the smartphone.
+The big issue that I saw was that hardware manufacturers (outside of computers and smartphones) didn't have a technology partner to help make their products better. Without an OS, hardware is limited to its capabilities when the product is shipped. An operating system provides a way for people to build applications for the hardware, which gives us Microsoft Office on the PC, and Angry Birds on the smartphone.
 
 This vision has remained pretty consistent, because we believe that connected devices and the Internet of Things is the next major frontier of technology, and in order for it to succeed, people need a great foundation upon which they can build amazing products. And that foundation needs to be:
 
@@ -98,13 +98,13 @@ The next time you log into the [Spark Build IDE](https://www.spark.io/build), yo
 
 <div><img src="{{ site.url }}/images/alert.png"></div>
 
-Click the big blue button, and you'll find that some or all of your Cores will have little arrows next to them. When your Core is online, click the arrow to upgrade!
+Click the big blue button, and you'll find that some or all of your Cores will have little arrows next to them. When your Core is online, click the arrow to upgrade! The process may take a few minutes; please visit the [deep update documentation](http://docs.spark.io/troubleshooting#deep-update) if you run into any problems.
 
 ### Spark's Series A
 
 Our announcement of Spark OS a couple of weeks ago was paired with some other big news: [Spark has raised $4.9 million from investors](http://blogs.wsj.com/venturecapital/2014/07/08/spark-io-raises-4-9-million-to-help-engineers-make-their-devices-smart/), including Lion Wells Capital, O'Reilly Alpha Tech Ventures, SOSventures, and Collaborative Fund.
 
-We couldn't be happier with the investors we've brought on board. These are not your typical VCs; they all understand our vision and how important our community is to us. A quick intro of each investor:
+We couldn't be happier with the investors we've brought on board. These are not your typical VCs; they all understand our vision and how important our community and our Kickstarter roots are to us. A quick intro of each investor:
 
 - **Lion Wells Capital**: Run by Avidan Ross, self-proclaimed investor/Maker. I met Avidan when he showed up at our demo day more than a year ago with a Roving Networks RN-171 in one hand and an Electric Imp in the other, and said "you're doing this right". Avidan has been a huge supporter since we launched the Spark Core, and I couldn't be happier to have him around.
 - **O'Reilly Alpha Tech Ventures**: OATV is a top-notch early-stage VC in San Francisco, with close ties to O'Reilly Media, famous for their technology books, conferences, and websites. The team at OATV believes strongly that "innovation starts with enthusiasts", so they're a perfect match for us.
