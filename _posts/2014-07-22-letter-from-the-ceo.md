@@ -35,7 +35,7 @@ In many ways, we're growing up. We're starting to look like a real company. We h
 
 I'd like to share a page from my first pitch deck for Spark, created in February 2012. Here it is:
 
-<div class="full"><img src="{{ site.url }}/images/pitchdeck.png"></div>
+<div class="full"><img src="{{ site.url }}/images/pitchdeck.jpg"></div>
 
 The big issue that I saw was that hardware manufacturers (outside of computers and smartphones) didn't have a technology partner to help make their products better. Without an OS, hardware is limited to its capabilities when the product is shipped. An operating system provides a way for people to build applications for the hardware, which gives us Microsoft Office on the PC, and Angry Birds on the smartphone.
 
