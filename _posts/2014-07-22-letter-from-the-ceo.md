@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Spark — State of the company
-cover_image: blog-cover.jpg
+title: A letter from the CEO
+cover_image: team-and-elite.jpg
 
 excerpt: Zach Supalla, Spark's CEO, shares some important updates about the company.
 
