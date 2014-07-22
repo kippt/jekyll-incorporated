@@ -70,7 +70,7 @@ Now, those of you who are familiar with us might say, "wait a second, isn't this
 Some features that you should expect to see us deploy over the rest of the year:
 
 - **Workers**: The ability to create "workers", Node.js applications in the Cloud that can communicate with your Spark Core so that you don't have to serve your own web app.
-- **Management tools**: If you've shipped thousands of products to customer, you need a administrative interface to do things like register devices, see logs, and push out firmware updates.
+- **Management tools**: If you've shipped thousands of products to customer, you need an administrative interface to do things like register devices, see logs, and push out firmware updates.
 - **Data visualization**: Connected products produce a lot of data, so you need pretty charts!
 - **New hardware**: Why should the Spark experience be limited to just Wi-Fi?
 
@@ -106,10 +106,10 @@ Our announcement of Spark OS a couple of weeks ago was paired with some other bi
 
 We couldn't be happier with the investors we've brought on board. These are not your typical VCs; they all understand our vision and how important our community and our Kickstarter roots are to us. A quick intro of each investor:
 
-- **Lion Wells Capital**: Run by Avidan Ross, self-proclaimed investor/Maker. I met Avidan when he showed up at our demo day more than a year ago with a Roving Networks RN-171 in one hand and an Electric Imp in the other, and said "you're doing this right". Avidan has been a huge supporter since we launched the Spark Core, and I couldn't be happier to have him around.
-- **O'Reilly Alpha Tech Ventures**: OATV is a top-notch early-stage VC in San Francisco, with close ties to O'Reilly Media, famous for their technology books, conferences, and websites. The team at OATV believes strongly that "innovation starts with enthusiasts", so they're a perfect match for us.
-- **SOSventures**: These guys have been with us since the beginning: they're behind [HAXLR8R](http://www.haxlr8r.com), the hardware incubator in Shenzhen that got us started. They made a bet on us early on when all we had was a vision and a prototype, and we'll be forever grateful.
-- **Collaborative Fund**: Collaborative Fund is one of the few investors with a clear social mission, focusing on investments with some aspect of creativity, collaboration, and strong values. Their money comes from passionate individuals like Nicholas Negroponte, Tony Hseih, and Pharrell Williams.
+- [**Lion Wells Capital**](http://www.lionwells.com): Run by Avidan Ross, self-proclaimed investor/Maker. I met Avidan when he showed up at our demo day more than a year ago with a Roving Networks RN-171 in one hand and an Electric Imp in the other, and said "you're doing this right". Avidan has been a huge supporter since we launched the Spark Core, and I couldn't be happier to have him around.
+- [**O'Reilly Alpha Tech Ventures**](http://www.oatv.com): OATV is a top-notch early-stage VC in San Francisco, with close ties to O'Reilly Media, famous for their technology books, conferences, and websites. The team at OATV believes strongly that "innovation starts with enthusiasts", so they're a perfect match for us.
+- [**SOSventures**](http://www.sosventures.com): These guys have been with us since the beginning: they're behind [HAXLR8R](http://www.haxlr8r.com), the hardware incubator in Shenzhen that got us started. They made a bet on us early on when all we had was a vision and a prototype, and we'll be forever grateful.
+- [**Collaborative Fund**](http://www.collaborativefund.com): Collaborative Fund is one of the few investors with a clear social mission, focusing on investments with some aspect of creativity, collaboration, and strong values. Their money comes from passionate individuals like Nicholas Negroponte, Tony Hseih, and Pharrell Williams.
 
 This investment provides us the opportunity to grow and take on bigger challenges. We're [hiring voraciously](http://jobs.lever.co/spark), so if you like where we're headed, come talk to us!
 
