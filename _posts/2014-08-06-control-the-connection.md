@@ -99,4 +99,38 @@ The only main difference between `SEMI_AUTOMATIC` mode and `AUTOMATIC` mode is t
 
 The Spark Core's manual mode puts everything in your hands. This mode gives you a lot of rope to hang yourself with, so tread cautiously.
 
-Like `SEMI_AUTOMATIC` mode, in `MANUAL` mode you need to connect `Spark.connect()` yourself.
+Like `SEMI_AUTOMATIC` mode, in `MANUAL` mode you need to connect to the Cloud using `Spark.connect()` yourself. However, in manual mode, the Core will not call `Spark.process()` automatically; you have to call it yourself. So your code might look like this:
+
+```cpp
+SYSTEM_MODE(MANUAL);
+
+void setup() {
+  pinMode(D7, OUTPUT);
+  attachInterrupt(D0, connect, FALLING);
+}
+
+void loop() {
+  digitalWrite(D7, HIGH);
+  Spark.process();
+  delay(500);
+  digitalWrite(D7, LOW);
+  Spark.process();
+  delay(500);
+}
+
+void connect() {
+  if (Spark.connected() == false) {
+    Spark.connect();
+  }
+}
+```
+
+*You must call `Spark.process()` as frequently as possible to process messages from the Wi-Fi module*. If you do not do so, you will encounter erratic behavior, such as:
+
+- The Core losing its connection to the Cloud
+- The Core breathing cyan when in fact it is not connected
+- Long delays when a request is sent to the Core because the Core won't respond until it's processed the message
+
+Sounds kinda terrible, right? Except this can be really useful when you're writing code that is very sensitive to exact timing, and the `Spark.process()` call might interrupt your sensitive code. By turning on `MANUAL` mode, you can make sure that `Spark.process()` is called when you want, and not when the processor is busy with a time-sensitive task.
+
+As Stan Lee once said: with great power comes great responsibility. Go forth and control the connection. Be careful. Good luck.
