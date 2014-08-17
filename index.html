@@ -1,18 +1,18 @@
 ---
 layout: base
 ---
-<div class="blog-cover" style="background-image:url(/images/{{ site.inc.cover_image }});">
+<div class="blog-cover" style="background-image:url(/images/{{ site.info.cover_image }});">
     
     <section>
         <div class="container">
-            <h1>{{ site.inc.title }}</h1>
-            {% if site.inc.subtitle %}<h3>{{ site.inc.subtitle }}</h3>{% endif %}
+            <h1>{{ site.info.title }}</h1>
+            {% if site.info.subtitle %}<h3>{{ site.info.subtitle }}</h3>{% endif %}
         
-            {% if site.inc.twitter %}
-            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
+            {% if site.info.twitter %}
+            <a href="https://twitter.com/{{ site.info.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
             {% endif %}
-            {% if site.inc.facebook %}
-            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
+            {% if site.info.facebook %}
+            <a href="http://facebook.com/{{ site.info.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
             {% endif %}
             <a href="/feed.xml" title="RSS Feed">
                 <i class="icon icon-rss"></i>
