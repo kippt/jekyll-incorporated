@@ -1,3 +1,12 @@
+// Use border-box sizing for everything.
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
     margin:0;
     border:0;
@@ -7,6 +16,15 @@ body {
     -webkit-font-smoothing:antialiased;
     text-rendering:optimizelegibility;
     font-size:17px;
+    line-height: 1.428571429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+p {
+  margin: 0 0 10px;
 }
 
 .is-visible {
@@ -25,6 +43,7 @@ body {
 
 h1, h2, h3, h4, h5 {
     color:#263c4c;
+    line-height: 1.1;
 }
 
 h1, h2 {
