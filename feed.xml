@@ -1,13 +1,11 @@
 ---
-layout: rss-feed
 ---
-<?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.blog_title }}</title>
+    <title>{{ site.info.title }}</title>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    <description>{{ site.blog_subtitle }}</description>
+    <description>{{ site.info.subtitle }}</description>
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
@@ -18,9 +16,8 @@ layout: rss-feed
       <title>{{ post.title }}</title>
       <link>{{ site.url }}{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <author>{{ post.author_name }}</author>
       <guid>{{ site.url }}{{ post.id }}</guid>
-      <description>{{ post.content | xml_escape }}</description>
+      <description>{{ post.excerpt | xml_escape }}</description>
     </item>
     {% endunless %}
     {% endfor %}
