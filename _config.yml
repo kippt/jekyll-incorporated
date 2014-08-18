@@ -1,4 +1,7 @@
 info:
+  # Root URL where the site will be published
+  url:         http://incorporated.sendtoinc.com
+
   # Blog Information
   title:        "Jekyll Incorporated"
   subtitle:     "Modern Jekyll based blog for companies"
@@ -34,8 +37,6 @@ info:
   google_font: 'Droid+Sans:400,700'
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
-
-url:         http://incorporated.sendtoinc.com
 
 relative_permalinks:  true
 paginate:             10

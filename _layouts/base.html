@@ -10,17 +10,17 @@
     <link rel="apple-touch-icon" href="/images/{{ site.info.logo }}"/>
     <link href="{{ site_url }}/feed.xml" rel="alternate" type="application/rss+xml" title="{{ site.info.title }}" />
     <meta name="title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.info.title }}{% endif %}">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="canonical" href="{{ site.info.url }}{{ page.url }}">
     {% if page.site.gplus %}<link rel="publisher" href="https://plus.google.com/{{ site.info.gplus }}">{% endif %} 
     {% if page.author.gplus %}<link rel="author" href="https://plus.google.com/{{ page.author.gplus }}">{% endif %}       
     <meta property="og:title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.info.title }}{% endif %}"/>
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <meta property="og:url" content="{{ site.info.url }}{{ page.url }}"/>
     {% if page.cover_image %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ page.cover_image }}"/>
+    <meta property="og:image" content="{{ site.info.url }}/images/{{ page.cover_image }}"/>
     {% if page.main_image %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ page.main_image }}"/>  
+    <meta property="og:image" content="{{ site.info.url }}/images/{{ page.main_image }}"/>  
     {% endif %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ site.info.logo }}"/>   
+    <meta property="og:image" content="{{ site.info.url }}/images/{{ site.info.logo }}"/>   
     {% endif %}
     {% if page.excerpt %}
     <meta property="og:description" content="{{ page.excerpt }}"/>
