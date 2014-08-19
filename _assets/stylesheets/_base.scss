@@ -27,20 +27,6 @@ p {
   margin: 0 0 10px;
 }
 
-.is-visible {
-    
-    .site-nav {
-        top:100px;
-    }
-    
-    .top-nav {
-        opacity:1;
-        -webkit-transform: translate3d(0px, 0px, 0px);
-        transition:0.3s all ease;
-        top:-200px;
-    }
-}
-
 h1, h2, h3, h4, h5 {
     color:#263c4c;
     line-height: 1.1;
