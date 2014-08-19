@@ -1,18 +1,9 @@
 @media (max-width: 1000px) {
     
+    // hide tagline
     .tagline span {
         display:none;
     }
-    
-    .container > header, .container > section, .container > footer {
-        padding:0;
-        margin:1.5em 10%;
-    }
-    
-    .container > section {
-        padding-bottom:1.5em;
-    }
-
 }
 
 @media (max-width: 720px) {
