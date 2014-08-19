@@ -149,11 +149,11 @@ a {
             height:36px;
             border:2px solid rgba(255,255,255,1);
             display:inline-block;
-            padding:10px 0;
+            padding:6px 0;
             border-radius:42px;
             margin:1.5em 1em 0em 0;
             transition:0.2s all ease;
-            line-height:0;
+            line-height: 0px;
             text-align:center;
         
             &:hover {
@@ -169,7 +169,7 @@ a {
                 }
                 
                 .icon-github {
-                    background-position:0px -15px;
+                    background-position:0px -19px;
                 }
                 
                 .icon-facebook {
@@ -239,11 +239,11 @@ a {
             height:36px;
             border:2px solid rgba(0,0,0,1);
             display:inline-block;
-            padding:10px 0;
+            padding:6px 0;
             border-radius:42px;
             margin:0 1em 0em 0;
-            transition:0.2s all ease;
-            line-height:0;
+            transition: 0.2s all ease;
+            line-height: 0;
             text-align:center;
             opacity:0.3;
 
