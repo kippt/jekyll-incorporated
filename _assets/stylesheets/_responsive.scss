@@ -14,8 +14,8 @@
         
         // reduce margins so article is wider
         .container > header, .container > section, .container > footer {
-            margin-left: 10%;
-            margin-right: 10%;
+            margin-left: 2em;
+            margin-right: 2em;
         }
         
         // display code blocks and full-width images inline with text (instead of shifted-left)
@@ -124,8 +124,8 @@
     article {
         // reduce margins so article is wider
         .container > header, .container > section, .container > footer {
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: 1em;
+            margin-right: 1em;
         }
         
         // move author name closer to author image
