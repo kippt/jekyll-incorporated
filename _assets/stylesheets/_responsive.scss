@@ -10,11 +10,12 @@
     
     article {
         // reduce padding between image and article
-        padding-top:30px;
+        padding-top: 50px;
         
         // reduce margins so article is wider
         .container > header, .container > section, .container > footer {
-            margin:1.5em 10%;
+            margin-left: 10%;
+            margin-right: 10%;
         }
         
         // display code blocks and full-width images inline with text (instead of shifted-left)
@@ -58,10 +59,10 @@
     .blog-cover {
         // tighten spacing of blog cover text and icons
         section {
-            padding:60px 0 0;
+            padding: 55px 0 0;
             
             a {
-                margin:1.5em .5em 0em 0;
+                margin: 1em .5em 0em 0;
             }
         }
         
@@ -92,23 +93,74 @@
     // reconfigure page footer with nav links centered above social links
     .site-footer {
         margin-top:0;
-        padding:2em 10%;
+        padding:2em 0%;
         text-align:center;
         
         nav {
             display:block;
             float:none !important;
-            padding:1em;
+            margin: 1.2em 0;
         }
     }
     
     .index {
-        // reduce margin of post blocks
+        // reduce margin of article index
         margin:0 10%;
         
         // hide author image
         img {
             display:none;
         }
+        
+        // reduce spacing between articles in index
+        hr {
+            margin: 1.5em 0;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    
+    article {
+        // reduce margins so article is wider
+        .container > header, .container > section, .container > footer {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        
+        // move author name closer to author image
+        address {
+          img {
+            margin-right: 10px;
+          }
+        }
+    }
+    
+    .blog-cover {
+        // move title text up slightly and move social icons up, closer to text
+        section {
+          padding: 50px 0 0;
+          
+            a {
+                margin: .75em .5em 0em 0;
+            }
+        }
+    }
+    
+    // move brand logo to the left
+    .site-nav {
+        nav {
+          padding-left: 10px;
+        }
+    }
+    
+    // move product link to the right
+    nav.tagline {
+      padding-right: 20px;
+    }
+    
+    // reduce margin of post blocks
+    .index {
+        margin:0 5%;
     }
 }
