@@ -50,15 +50,12 @@
         }
     }
     
-    .blog-cover {
-        // reduce height of blog cover image
+    .blog-cover, .article-cover {
+        // reduce height of cover image
         height:200px;
-
-        img {
-            height:200px;
-            width:auto;
-        }
+    }
         
+    .blog-cover {
         // tighten spacing of blog cover text and icons
         section {
             padding:60px 0 0;

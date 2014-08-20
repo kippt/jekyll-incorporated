@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    max-height: 100%
+}
+
 body {
     margin:0;
     border:0;
@@ -52,23 +57,27 @@ a {
     margin:0 auto;
 }
 
-.article-cover {
+.article-cover, .blog-cover {
     max-width: 100%;
     margin-top: 0;
     position: relative;
-    max-height:460px;
-    overflow:hidden;
-    background:#eee;
-    
+    overflow: hidden;
+    background: #eee;
+    height: 60%;
+    max-height: 480px;
+
     > div {
-        max-height: 480px;
-        line-height: 0;
-    }
-    
-    .image {
-        width: 100%;
+        position: absolute;
         top: 0;
-        position:relative;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        line-height: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        
+        img { display: none; }
     }
 }
 
@@ -94,7 +103,6 @@ a {
 }
 
 .blog-cover {
-    @extend .article-cover;
     height: 320px;
     background-color:#111;
     background-size:cover;
