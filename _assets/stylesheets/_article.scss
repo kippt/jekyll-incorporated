@@ -171,22 +171,24 @@ article {
     }
 
 
-    pre {
-        border: 0;
-        padding: 1.5em 3em;
-        margin:0 -3em 1.5em;
-        background: whitesmoke;
-        border: 0;
-        border-radius: 2px;
-        border-bottom:1px solid #eee;
-        width:100%;
-        font-size:0.8em;
-        overflow-x: auto;
-        display:block;
-        
-        code {
+    .highlight {
+        margin: 1em -3.5em;
+      
+        pre {
+            border: 0;
+            padding: 1.5em 1.5em;
+            background: whitesmoke;
+            border: 0;
+            border: 1px solid #e0e0e0;
+            width:100%;
             font-size:0.8em;
-            border:0;
+            overflow-x: auto;
+            display:block;
+        
+            code {
+                font-size:0.8em;
+                border:0;
+            }
         }
     }
     

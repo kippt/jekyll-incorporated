@@ -18,14 +18,20 @@
             margin-right: 2em;
         }
         
-        // display code blocks and full-width images inline with text (instead of shifted-left)
-        .full, pre {
-            margin:1em 0;
+        // display code blocks inline with text
+        .highlight {
+            margin-left: 0em;
+            margin-right: 0em;
+            
+            // reduce padding of code blocks
+            pre {
+                padding: 1em;
+            }
         }
         
-        // reduce padding of code blocks
-        pre {
-            padding:1em;
+        // display full-width images inline with text (instead of shifted-left)
+        .full {
+            margin:1em 0;
         }
         
         // reduce top/bottom margin of blockquotes and don't extend past right margin
