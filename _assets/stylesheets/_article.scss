@@ -13,7 +13,12 @@ article {
         
         > div {
             display:inline-block;
-            min-width:120px;
+            width: 100px;
+            
+            &.google { width: 85px; }
+            
+            // vertically align facebook like button with other sharing icons
+            .fb-like > span { vertical-align: baseline !important; }
         }
     }
 
