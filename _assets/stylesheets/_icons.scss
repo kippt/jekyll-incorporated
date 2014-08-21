@@ -41,18 +41,9 @@
     margin-top: 3px;
 }
 
-.icon-rss.black {
-    background-position:1px -11px;
-}
-
-.icon-twitter.black {
-    background-position:1px -16px;
-}
-
-.icon-facebook.black {
-    background-position:0px -14px;
-}
-
-.icon-github.black {
-    background-position:0px -19px;
+@mixin black_icons {
+    .icon-rss { background-position:1px -11px; }
+    .icon-twitter { background-position:1px -16px; }
+    .icon-facebook { background-position:0px -14px; }
+    .icon-github { background-position:0px -19px; }
 }

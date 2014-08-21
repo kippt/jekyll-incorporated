@@ -61,18 +61,7 @@
         </nav>
         
         <nav class="social">
-            {% if site.info.twitter %}
-            <a href="https://twitter.com/{{ site.info.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
-            {% endif %}
-            {% if site.info.github %}
-            <a href="https://github.com/{{ site.info.github }}" title="Watch on Github" target="_blank"><i class="icon icon-github black"></i></a>
-            {% endif %}
-            {% if site.info.facebook %}
-            <a href="http://facebook.com/{{ site.info.facebook }}" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>
-            {% endif %}    
-            <a href="/feed.xml" title="RSS Feed">
-                <i class="icon icon-rss black"></i>
-            </a>
+            {% include _social-links.html %}
         </nav>
         <p>Incorporated theme by <a href="https://sendtoinc.com">Inc</a></p>
     </div>
