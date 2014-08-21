@@ -17,7 +17,7 @@
     
     {% if site.info.sharing.hn %}
     <div>
-        <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
+        <a href="https://news.ycombinator.com/submit" class="hn-button" data-title="{{ page.title }}" data-url="{{ site.info.url }}{{ page.url }}" data-count="horizontal">Vote on Hacker News</a>
     </div>
     {% endif %}
 </div>
