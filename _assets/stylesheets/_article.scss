@@ -95,11 +95,11 @@ article {
     
     blockquote {
         border:0;
-        font-size:24px;
-        margin:1.2em -3em 1.2em 0;
+        margin: 1.5em -3em 1.5em 0;
         padding:0;
 
         p {
+            margin: 0;
             font-size:30px;
             line-height:1.1;
             color:$accent;
@@ -114,7 +114,7 @@ article {
     }
 
     h2 {
-        font-size:1.5em;
+        font-size:1.55em;
         margin:0.5em 0 1em;
         font-weight:600;
     }
@@ -177,7 +177,7 @@ article {
 
 
     .highlight {
-        margin: 1em -3.5em;
+        margin: 1.5em -3.5em;
       
         pre {
             border: 0;

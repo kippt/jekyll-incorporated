@@ -9,6 +9,9 @@
 @media (max-width: 720px) {
     
     article {
+        // Reduce the font size. This will effect all derived 'em' font sizes, margins, and padding
+        font-size: 16px;
+        
         // reduce padding between image and article
         padding-top: 50px;
         
@@ -18,7 +21,7 @@
             margin-right: 2em;
         }
         
-        // display code blocks inline with text
+        // display code blocks inline with text (instead of shifted-left)
         .highlight {
             margin-left: 0em;
             margin-right: 0em;
@@ -31,29 +34,22 @@
         
         // display full-width images inline with text (instead of shifted-left)
         .full {
-            margin:1em 0;
+            margin-left: 0;
+            margin-right: 0;
         }
         
-        // reduce top/bottom margin of blockquotes and don't extend past right margin
+        // Reduce font size and don't extend blockquotes past right margin
         blockquote {
-            margin:1em 0;
+            margin-right: 0;
             
             p {
-                font-size:1em;
+                font-size: 1.2em;
             }
         }
         
-        // reduce font sizes
+        // reduce h1 font size slightly more
         h1 {
-            font-size:1.8em;
-        }
-        
-        h2 {
-            font-size:1.4em;
-        }
-        
-        p {
-            font-size:0.9em;
+            font-size: 2em;
         }
     }
     
