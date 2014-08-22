@@ -199,6 +199,9 @@ a {
     .social {
         float:right;
         
+        a:last-child {
+            margin-right: 0;
+        }
         a {
             color:#000;
             border:0;
