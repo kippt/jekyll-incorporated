@@ -33,13 +33,13 @@ layout: base
     <section class="pagination" style="text-align:center">
       {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-        <a href="/" class="btn btn-outline">‹ Newer</a>
+        <a href="/" class="btn outline">‹ Newer</a>
         {% else %}
-        <a href="/page{{ paginator.previous_page }}" class="btn btn-outline">‹ Newer</a>
+        <a href="/page{{ paginator.previous_page }}" class="btn outline">‹ Newer</a>
         {% endif %}
       {% endif %}
       {% if paginator.next_page %}
-        <a href="/page{{ paginator.next_page }}" class="btn btn-outline">Older ›</a>
+        <a href="/page{{ paginator.next_page }}" class="btn outline">Older ›</a>
       {% endif %}
     </section>
 </article>

@@ -261,18 +261,19 @@ a {
     &:active {
         box-shadow:none;
     }
-}
 
-.btn-outline {
-    background: none;
-    border-radius: 4px;
-    font-size: 0.8em;
-    color:darken($accent, 5%);
-    transition:none;
+    &.outline {
+        background: none;
+        border-radius: 4px;
+        font-size: 0.8em;
+        color:darken($accent, 5%);
+        transition:none;
 
-    &:hover {
-        border:2px solid darken($accent, 5%);
-        color:darken($accent, 10%);
-        background:none;
+        &:hover {
+            border:2px solid darken($accent, 5%);
+            color:darken($accent, 10%);
+            background:none;
+        }
     }
 }
+
