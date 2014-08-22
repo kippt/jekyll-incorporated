@@ -230,8 +230,7 @@ a {
 .btn {
     color:#fff;
     font-weight:bold;
-    background-color:#54b89d;
-    font-size:1em;
+    font-size: 0.8em;
     padding: 0.6em 1.2em;
     display: inline-block;
     position: relative;
@@ -246,16 +245,16 @@ a {
     text-rendering: optimizeLegibility;
     border-radius: 2px;
     vertical-align:middle;
-    font-family:"proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-radius:2px;
-    background:#4dab7d;
-    border:2px solid #4dab7d;
+    background: $accent;
+    border:2px solid $accent;
+    border-radius: 3px;
     text-transform: uppercase;
     white-space:nowrap;
 
     &:hover {
-        background:darken(#4dab7d, 10%);
-        border-color:darken(#4dab7d, 10%);
+        background:darken($accent, 10%);
+        border-color:darken($accent, 10%);
         color:#fff;
     }
     
@@ -268,8 +267,6 @@ a {
     background: none;
     border-radius: 4px;
     font-size: 0.8em;
-    border:2px solid $accent;
-    border-radius: 3px;
     color:darken($accent, 5%);
     transition:none;
 
