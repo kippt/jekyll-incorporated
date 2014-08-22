@@ -106,9 +106,6 @@
     }
     
     .index {
-        // reduce margin of article index
-        margin:0 10%;
-        
         // hide author image
         img {
             display:none;
@@ -159,10 +156,5 @@
     // move product link to the right
     nav.tagline {
       padding-right: 20px;
-    }
-    
-    // reduce margin of post blocks
-    .index {
-        margin:0 5%;
     }
 }
