@@ -47,7 +47,7 @@ a {
     transition:all 0.2s ease;
     
     &:hover {
-        color:darken($accent, 50%);
+        color:darken($accent, 8%);
         text-decoration:none;
     }
 }
