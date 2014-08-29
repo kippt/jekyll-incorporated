@@ -4,7 +4,7 @@ article {
     font-size:18px;
 
     .container > header, .container > section, .container > footer {
-        margin:0 8em;
+        margin: 0 3.5em;
     }
 
     .social {
@@ -13,7 +13,12 @@ article {
         
         > div {
             display:inline-block;
-            min-width:120px;
+            width: 100px;
+            
+            &.google { width: 85px; }
+            
+            // vertically align facebook like button with other sharing icons
+            .fb-like > span { vertical-align: baseline !important; }
         }
     }
 
@@ -90,11 +95,11 @@ article {
     
     blockquote {
         border:0;
-        font-size:24px;
-        margin:1.2em -4em 1.2em 0;
+        margin: 1.5em -3em 1.5em 0;
         padding:0;
 
         p {
+            margin: 0;
             font-size:30px;
             line-height:1.1;
             color:$accent;
@@ -109,7 +114,7 @@ article {
     }
 
     h2 {
-        font-size:1.5em;
+        font-size:1.55em;
         margin:0.5em 0 1em;
         font-weight:600;
     }
@@ -125,7 +130,7 @@ article {
     }
 
     hr {
-        margin:3em 0;
+        margin:2em 0;
     }
 
     .meta {
@@ -172,29 +177,23 @@ article {
 
 
     .highlight {
-        border:0;
-
-        .lineno {
-            color:$textmuted;
-        }
-    }
-
-    pre {
-        border: 0;
-        padding: 1.5em 3em;
-        margin:0 -3em 1.5em;
-        background: whitesmoke;
-        border: 0;
-        border-radius: 2px;
-        border-bottom:1px solid #eee;
-        width:100%;
-        font-size:0.8em;
-        overflow-x: auto;
-        display:block;
-        
-        code {
+        margin: 1.5em -3.5em;
+      
+        pre {
+            border: 0;
+            padding: 1.5em 1.5em;
+            background: whitesmoke;
+            border: 0;
+            border: 1px solid #e0e0e0;
+            width:100%;
             font-size:0.8em;
-            border:0;
+            overflow-x: auto;
+            display:block;
+        
+            code {
+                font-size:0.8em;
+                border:0;
+            }
         }
     }
     
@@ -213,7 +212,7 @@ article {
     }
 
     .full {
-        margin:1.5em -6em;
+        margin: 1.5em -3.5em;
         padding:0;
         text-align:center;
 

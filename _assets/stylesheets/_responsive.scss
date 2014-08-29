@@ -1,79 +1,74 @@
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     
+    // hide tagline
     .tagline span {
         display:none;
     }
-    
-    .container > header, .container > section, .container > footer {
-        padding:0;
-        margin:1.5em 10%;
-    }
-    
-    .container > section {
-        padding-bottom:1.5em;
-    }
-
 }
 
 @media (max-width: 720px) {
     
     article {
-        padding-top:30px;
+        // Reduce the font size. This will effect all derived 'em' font sizes, margins, and padding
+        font-size: 16px;
         
+        // reduce padding between image and article
+        padding-top: 50px;
+        
+        // reduce margins so article is wider
         .container > header, .container > section, .container > footer {
-            padding:0;
-            margin:1.5em 10%;
+            margin-left: 2em;
+            margin-right: 2em;
         }
         
-        .container > footer {
-            padding:2em 0;
-        }
-        
-        .full, pre {
-            margin:1em 0;
-        }
-        
-        pre {
-            padding:1em;
-        }
-        
-        blockquote {
-            margin:1em 0;
+        // display code blocks inline with text (instead of shifted-left)
+        .highlight {
+            margin-left: 0em;
+            margin-right: 0em;
             
-            p {
-                font-size:1em;
+            // reduce padding of code blocks
+            pre {
+                padding: 1em;
             }
         }
         
+        // display full-width images inline with text (instead of shifted-left)
+        .full {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        
+        // Reduce font size and don't extend blockquotes past right margin
+        blockquote {
+            margin-right: 0;
+            
+            p {
+                font-size: 1.2em;
+            }
+        }
+        
+        // reduce h1 font size slightly more
         h1 {
-            font-size:1.8em;
-        }
-        
-        h2 {
-            font-size:1.4em;
-        }
-        
-        p {
-            font-size:0.9em;
+            font-size: 2em;
         }
     }
     
-    .blog-cover {
+    .blog-cover, .article-cover {
+        // reduce height of cover image
         height:200px;
-
-        img {
-            height:200px;
-            width:auto;
-        }
+    }
         
+    .blog-cover {
+        // tighten spacing of blog cover text and icons
         section {
-            padding:60px 0 0;
-            text-align:center;
+            padding: 55px 0 0;
             
             a {
-                margin:0.5em;
+                margin: 1em .5em 0em 0;
             }
         }
+        
+        // reduce size of blog cover text
         h1 {
             font-size:1.5em;
         }
@@ -83,44 +78,83 @@
         }
     }
     
-    .site-nav .tagline span {
-        display:none;
-    }
-    
+    // hide nav (blog, product, about links)
     .site-nav {
         #navigation {
             a {
                 display:none;
             }
             
+            // don't hide brand logo
             .brand {
                 display:inline-block;
             } 
         }
     }
     
+    // reconfigure page footer with nav links centered above social links
     .site-footer {
         margin-top:0;
-        padding:2em 10%;
+        padding:2em 0;
         text-align:center;
         
         nav {
             display:block;
             float:none !important;
-            padding:1em;
+            margin: 1.2em 0;
         }
     }
     
     .index {
-        padding:0;
-        margin:0 10%;
-        
-        > div {
-            margin:0;
-        }
-        
+        // hide author image
         img {
             display:none;
         }
+        
+        // reduce spacing between articles in index
+        hr {
+            margin: 1.5em 0;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    
+    article {
+        // reduce margins so article is wider
+        .container > header, .container > section, .container > footer {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+        
+        // move author name closer to author image
+        address {
+          img {
+            margin-right: 10px;
+          }
+        }
+    }
+    
+    .blog-cover {
+        // move title text up slightly and move social icons up, closer to text
+        section {
+          padding: 50px 0 0;
+          
+            a {
+                margin: .75em .5em 0em 0;
+            }
+        }
+    }
+    
+    // move brand logo to the left
+    .site-nav {
+        nav {
+          padding-left: 10px;
+        }
+    }
+    
+    // move product link to the right
+    nav.tagline {
+      padding-right: 20px;
     }
 }

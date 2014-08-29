@@ -1,4 +1,7 @@
-inc:
+info:
+  # Root URL where the site will be published
+  url:         http://incorporated.sendtoinc.com
+
   # Blog Information
   title:        "Jekyll Incorporated"
   subtitle:     "Modern Jekyll based blog for companies"
@@ -7,9 +10,10 @@ inc:
   
   # Company information
   company:      Incorporated
-  url:          http://sendtoinc.com/
+  company_url:  http://sendtoinc.com/
   facebook:     sendtoinc
   twitter:      sendtoinc
+  github:       kippt
   gplus:        '101183822199340201470'
   about_link:   https://sendtoinc.com/about/
   
@@ -29,88 +33,23 @@ inc:
     gplus:      false
     hn:         false
     
-  
- # Analytics     
-  analytics:
-    google: false # Add tracking code in _includes/_google-analytics.html
-      
-      
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'Droid+Sans:400,700'
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://incorporated.sendtoinc.com
-source:      .
-destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-include:     ['.htaccess']
-exclude:     []
-timezone:    nil
+relative_permalinks:  true
+paginate:             10
+excerpt_separator:    "<!-- more -->"
 
-# Show future posts
-future:      false
-show_drafts: nil
-limit_posts: 0
-pygments:    true
-
-relative_permalinks: true
-
-permalink:     pretty
-paginate_path: 'page:num'
-paginate: 10
-
-markdown:      maruku
-markdown_ext:  markdown,mkd,mkdn,md
-textile_ext:   textile
-
-excerpt_separator: "<!-- more -->"
-
-safe:        false
-host:        0.0.0.0
-port:        4000
-baseurl:     /
-lsi:         false
-
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
-
-rdiscount:
-  extensions: []
-
-redcarpet:
-  extensions: []
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: false
-
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
-
-redcloth:
-  hard_breaks: true
+# safe mode must be disabled to use jekyll-assets.
+safe:               false
 
 #
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
 #
 assets:
-
   dirname: assets
   baseurl: /assets/
   sources:

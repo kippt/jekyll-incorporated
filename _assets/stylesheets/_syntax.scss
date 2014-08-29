@@ -58,3 +58,18 @@
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+// suggestions from http://demisx.github.io/jekyll/2014/01/13/improve-code-highlighting-in-jekyll.html
+.highlight .lineno {
+  color: #ccc;
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+.highlight pre code {
+  font: 13px Menlo, Monaco, Consolas, "Courier New", monospace;
+  display: block;
+  white-space: pre;
+  overflow-x: auto;
+  word-wrap: normal;
+}

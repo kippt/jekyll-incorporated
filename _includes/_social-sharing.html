@@ -1,0 +1,25 @@
+{% if site.info.sharing.twitter or site.info.sharing.facebook or site.info.sharing.gplus or site.info.sharing.hn %}
+<div class="social">
+    {% if site.info.sharing.twitter %}
+    <div class='twitter'>
+        <a href="https://twitter.com/share" class="twitter-share-button" {% if site.info.sharing.twitter.via %}data-via="{{ site.info.sharing.twitter.via }}"{% endif %} data-text="{{ page.title }}" data-related="{{ site.info.twitter }}">Tweet</a>
+    </div>
+    {% endif %}
+    {% if site.info.sharing.facebook %}
+    <div class='facebook'>
+        <div class="fb-like" data-width="150" data-layout="button_count" data-action="like" data-show-faces="true" data-send="false"></div>
+    </div>
+    {% endif %}
+    {% if site.info.sharing.gplus %}
+    <div class='google'>
+        <div class="g-plusone" data-size="medium"></div>
+    </div>
+    {% endif %}
+    
+    {% if site.info.sharing.hn %}
+    <div class='hn'>
+        <a href="https://news.ycombinator.com/submit" class="hn-button" data-title="{{ page.title }}" data-url="{{ site.info.url }}{{ page.url }}" data-count="horizontal">Vote on Hacker News</a>
+    </div>
+    {% endif %}
+</div>
+{% endif %}

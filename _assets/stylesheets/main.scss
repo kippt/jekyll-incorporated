@@ -13,10 +13,10 @@ $accent: #2077b2;
 
 
 /* IMPORT CSS FILES */
-@import "bootstrap";
+@import "normalize";
+@import "icons";
 @import "base";
 @import "nav";
 @import "article";
-@import "icons";
 @import "syntax";
 @import "responsive";

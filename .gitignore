@@ -1,2 +1,5 @@
-_site/
+/.sass-cache
+/_site
+
+# Ignore OSX files like:
 .DS_Store
