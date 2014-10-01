@@ -7,5 +7,5 @@ elif [[ $TRAVIS_BRANCH == 'master' ]]
 then
   bundle exec rake site:publish
 else
-  echo "Nothing to do here."
+  echo "Nothing to do here!"
 fi
