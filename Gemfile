@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '1.5.1'
 gem 'jekyll-assets'
 gem 'maruku'
 gem 'rake'
 gem 'sass'
 gem 'uglifier'
-gem 'github-pages'
