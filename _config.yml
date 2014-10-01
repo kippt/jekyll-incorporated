@@ -48,7 +48,7 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
-exclude:     ['./vendor']
+exclude:     ['vendor']
 timezone:    nil
 
 # Show future posts
