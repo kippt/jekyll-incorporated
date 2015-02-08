@@ -106,20 +106,5 @@ kramdown:
 redcloth:
   hard_breaks: true
 
-#
-# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
-#
-assets:
-
-  dirname: assets
-  baseurl: /assets/
-  sources:
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/images
-  js_compressor: uglifier
-  css_compressor: sass
-  cachebust: none
-  cache: false
-  gzip: [ text/css, application/javascript ]
-  debug: false
+sass:
+    style: :compressed
