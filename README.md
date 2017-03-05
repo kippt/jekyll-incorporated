@@ -1,5 +1,5 @@
 # Jekyll Incorporated
-Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)
+Modern Jekyll based blog. Great for companies, products or anything. See live at [incorporated.sendtoinc.com](http://incorporated.sendtoinc.com)
 
 ## Installation & Usage
     bundle install
