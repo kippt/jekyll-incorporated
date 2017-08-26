@@ -48,7 +48,6 @@ plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
 exclude:     []
-timezone:    nil
 
 # Show future posts
 future:      false
